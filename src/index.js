@@ -9,6 +9,8 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(cors()); 
+
 // const allowedOrigins = ['http://localhost:5173', 'https://csteamraid.vercel.app/'];
 
 // app.use(cors({
