@@ -9,17 +9,17 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-const allowedOrigins = ['http://localhost:5173', 'https://csteamraid.vercel.app/'];
+// const allowedOrigins = ['http://localhost:5173', 'https://csteamraid.vercel.app/'];
 
-app.use(cors({
-    origin: (origin, callback) => {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    }
-}));
+// app.use(cors({
+//     origin: (origin, callback) => {
+//         if (!origin || allowedOrigins.includes(origin)) {
+//             callback(null, true);
+//         } else {
+//             callback(new Error('Not allowed by CORS'));
+//         }
+//     }
+// }));
 
 // Configurações iniciais
 const realm = process.env.REALM;
