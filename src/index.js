@@ -57,17 +57,24 @@ async function getCharacterEquipment(accessToken, url) {
 }
 
 // Função para obter o roster da guilda
+// Função para obter o roster da guilda com filtragem de nível e rank
 async function getGuildRoster(realm, guildName, accessToken) {
     const url = `https://${region}.api.blizzard.com/data/wow/guild/${realm}/${guildName}/roster?namespace=profile-${region}&locale=${locale}&access_token=${accessToken}`;
 
     try {
         const response = await axios.get(url);
-        return response.data;
+
+        // Filtrando os membros com nível >= 80 e rank <= 3
+        const filteredMembers = response.data.members.filter(member => member.character.level >= 80 && member.rank <= 3);
+        
+        console.log("filtered ",filteredMembers)
+        return filteredMembers;
     } catch (error) {
         console.error('Error getting guild roster:', error.response ? error.response.data : error.message);
         throw error;
     }
 }
+
 
 // Função para obter dados do Mythic Plus do personagem
 async function getCharacterMythicPlus(accessToken, url) {
@@ -104,7 +111,7 @@ app.get('/guild-info', async (req, res) => {
 
         let result = '';
 
-        for (const member of guildRoster.members) {
+        for (const member of guildRoster) {
             if (member.character.level >= 80 && member.rank <= 3) {
                 const characterName = member.character.name;
                 console.log(`Obtendo informações do personagem: ${characterName}`);
@@ -114,57 +121,42 @@ app.get('/guild-info', async (req, res) => {
                 result += `Nome do Personagem: ${characterInfo.name}<br>`;
                 result += `Nível: ${characterInfo.level}<br>`;
                 result += `Raça: ${characterInfo.race.name}<br>`;
-                result += `Classe: ${characterInfo.character_class.name}<br><br>`;
-
-                // Obtendo e exibindo os equipamentos do personagem
+                result += `Classe: ${characterInfo.character_class.name}<br>`;
+                result += `Item Level: ${characterInfo.equipped_item_level} (Equipado) / ${characterInfo.average_item_level}<br>`;
+                
+                // Exibindo Tier Set
                 console.log('Obtendo equipamentos do personagem...');
                 const characterEquipment = await getCharacterEquipment(accessToken, characterInfo.equipment.href);
-                console.log('Equipamentos do personagem:', characterEquipment);
-                result += `Item Level: ${characterInfo.equipped_item_level} (Equipado) / ${characterInfo.average_item_level}<br>`;
                 result += 'Tier Set:<br>';
                 for (const item of characterEquipment.equipped_items) {
                     if (item.set) {
                         result += `${item.slot.type} - ${item.level.display_string}<br>`;
                     }
                 }
-                result += '<br>';
 
-                // Obtendo dados do Mythic Plus e do Great Vault
+                // Dados do Mythic Plus e Great Vault
                 console.log('Obtendo dados do Mythic Plus...');
                 const mythicPlusData = await getCharacterMythicPlus(accessToken, characterInfo.equipment.href);
-                console.log('Dados do Mythic Plus:', mythicPlusData);
-                console.log('Obtendo dados do Great Vault...');
-                const greatVaultData = await getGreatVault(accessToken, characterInfo.equipment.href);
-                console.log('Dados do Great Vault:', greatVaultData);
-
-                // Exibindo dados sobre Mythic Dungeons
                 result += '<br>Mythic Dungeons Done:<br>';
                 if (mythicPlusData && mythicPlusData.dungeons) {
                     for (const dungeon of mythicPlusData.dungeons) {
                         result += `- ${dungeon.name} (This Week: ${dungeon.this_week})<br>`;
                     }
-                } else {
-                    result += 'Sem dados de dungeons.<br>';
                 }
 
-                // Exibindo dados sobre Great Vault Score
                 result += '<br>Great Vault Score:<br>';
+                const greatVaultData = await getGreatVault(accessToken, characterInfo.equipment.href);
                 if (greatVaultData && greatVaultData.rewards) {
                     for (const reward of greatVaultData.rewards) {
                         result += `- ${reward.name} (This Week: ${reward.this_week})<br>`;
                     }
-                } else {
-                    result += 'Sem dados da Grande Cofre.<br>';
                 }
 
-                // Exibindo dados sobre Mythic+ Rating
                 result += '<br>Mythic+ Rating:<br>';
                 if (mythicPlusData && mythicPlusData.ratings) {
                     for (const rating of mythicPlusData.ratings) {
                         result += `- ${rating.name} (Rating: ${rating.rating})<br>`;
                     }
-                } else {
-                    result += 'Sem dados de classificação Mythic+.<br>';
                 }
                 result += '<br>';
             }
@@ -176,6 +168,7 @@ app.get('/guild-info', async (req, res) => {
         res.status(500).send('Erro ao recuperar informações da guilda');
     }
 });
+
 
 
 app.get('/', async (req, res) => {
@@ -190,14 +183,14 @@ app.get('/', async (req, res) => {
 
         let result = [];
 
-        for (const member of guildRoster.members) {
+        for (const member of guildRoster) {
             if (member.character.level >= 80 && member.rank <= 3) {
                 const characterName = member.character.name;
                 console.log(`Obtendo informações do personagem: ${characterName}`);
                 const characterInfo = await getCharacterInfo(accessToken, member.character.key.href);
                 console.log('Informações do personagem:', characterInfo);
 
-                // Inicializando objeto de personagem
+                // Objeto de dados do personagem
                 let characterData = {
                     name: characterInfo.name,
                     level: characterInfo.level,
@@ -213,7 +206,7 @@ app.get('/', async (req, res) => {
                     mythicPlusRating: []
                 };
 
-                // Obtendo e armazenando os equipamentos do personagem
+                // Tier Set
                 console.log('Obtendo equipamentos do personagem...');
                 const characterEquipment = await getCharacterEquipment(accessToken, characterInfo.equipment.href);
                 for (const item of characterEquipment.equipped_items) {
@@ -225,15 +218,9 @@ app.get('/', async (req, res) => {
                     }
                 }
 
-                // Obtendo dados do Mythic Plus e do Great Vault
+                // Mythic Plus
                 console.log('Obtendo dados do Mythic Plus...');
                 const mythicPlusData = await getCharacterMythicPlus(accessToken, characterInfo.equipment.href);
-                console.log('Dados do Mythic Plus:', mythicPlusData);
-                console.log('Obtendo dados do Great Vault...');
-                const greatVaultData = await getGreatVault(accessToken, characterInfo.equipment.href);
-                console.log('Dados do Great Vault:', greatVaultData);
-
-                // Armazenando dados sobre Mythic Dungeons
                 if (mythicPlusData && mythicPlusData.dungeons) {
                     for (const dungeon of mythicPlusData.dungeons) {
                         characterData.mythicDungeons.push({
@@ -243,7 +230,9 @@ app.get('/', async (req, res) => {
                     }
                 }
 
-                // Armazenando dados sobre Great Vault Score
+                // Great Vault
+                console.log('Obtendo dados do Great Vault...');
+                const greatVaultData = await getGreatVault(accessToken, characterInfo.equipment.href);
                 if (greatVaultData && greatVaultData.rewards) {
                     for (const reward of greatVaultData.rewards) {
                         characterData.greatVaultScore.push({
@@ -253,7 +242,7 @@ app.get('/', async (req, res) => {
                     }
                 }
 
-                // Armazenando dados sobre Mythic+ Rating
+                // Mythic+ Rating
                 if (mythicPlusData && mythicPlusData.ratings) {
                     for (const rating of mythicPlusData.ratings) {
                         characterData.mythicPlusRating.push({
