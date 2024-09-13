@@ -1,12 +1,25 @@
 const express = require('express');
 const axios = require('axios');
 const dotenv = require('dotenv');
+const cors = require('cors');  // Importar o pacote CORS
 
 // Carregar variáveis de ambiente do arquivo .env
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+const allowedOrigins = ['http://localhost:5173', 'http://example.com'];
+
+app.use(cors({
+    origin: (origin, callback) => {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    }
+}));
 
 // Configurações iniciais
 const realm = process.env.REALM;
