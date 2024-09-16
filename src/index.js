@@ -1,9 +1,10 @@
 const express = require('express');
 const axios = require('axios');
 const dotenv = require('dotenv');
-const cors = require('cors'); // Importar o pacote CORS
+const cors = require('cors');
+const fs = require('fs');
+const path = require('path');
 
-// Carregar vari�veis de ambiente do arquivo .env
 dotenv.config();
 
 const app = express();
@@ -11,19 +12,6 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-// const allowedOrigins = ['http://localhost:5173', 'https://csteamraid.vercel.app/'];
-
-// app.use(cors({
-//     origin: (origin, callback) => {
-//         if (!origin || allowedOrigins.includes(origin)) {
-//             callback(null, true);
-//         } else {
-//             callback(new Error('Not allowed by CORS'));
-//         }
-//     }
-// }));
-
-// Configura��es iniciais
 const realm = process.env.REALM;
 const guildName = process.env.GUILD_NAME;
 const region = process.env.REGION;
@@ -31,7 +19,6 @@ const locale = process.env.LOCALE;
 const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
 
-// Fun��o para obter o token de acesso da Blizzard
 async function getBlizzardAccessToken(clientId, clientSecret) {
   const url = `https://${region}.battle.net/oauth/token`;
   const headers = {
@@ -55,7 +42,6 @@ async function getBlizzardAccessToken(clientId, clientSecret) {
   }
 }
 
-// Fun��o para obter informa��es do personagem
 async function getCharacterInfo(accessToken, url) {
   try {
     const response = await axios.get(
@@ -71,7 +57,6 @@ async function getCharacterInfo(accessToken, url) {
   }
 }
 
-// Fun��o para obter equipamentos do personagem
 async function getCharacterEquipment(accessToken, url) {
   try {
     const response = await axios.get(
@@ -87,20 +72,14 @@ async function getCharacterEquipment(accessToken, url) {
   }
 }
 
-// Fun��o para obter o roster da guilda
-// Fun��o para obter o roster da guilda com filtragem de n�vel e rank
 async function getGuildRoster(realm, guildName, accessToken) {
   const url = `https://${region}.api.blizzard.com/data/wow/guild/${realm}/${guildName}/roster?namespace=profile-${region}&locale=${locale}&access_token=${accessToken}`;
 
   try {
     const response = await axios.get(url);
-
-    // Filtrando os membros com n�vel >= 80 e rank <= 3
     const filteredMembers = response.data.members.filter(
       (member) => member.character.level >= 80 && member.rank <= 3
     );
-
-    console.log('filtered ', filteredMembers);
     return filteredMembers;
   } catch (error) {
     console.error(
@@ -111,7 +90,6 @@ async function getGuildRoster(realm, guildName, accessToken) {
   }
 }
 
-// Fun��o para obter dados do Mythic Plus do personagem
 async function getCharacterMythicPlus(accessToken, url) {
   try {
     const response = await axios.get(
@@ -123,11 +101,9 @@ async function getCharacterMythicPlus(accessToken, url) {
       'Error getting character Mythic Plus data:',
       error.response ? error.response.data : error.message
     );
-    // throw error;
   }
 }
 
-// Fun��o para obter dados do Great Vault
 async function getGreatVault(accessToken, url) {
   try {
     url = url.replace('mythic-keystone-profile?', 'mythic-keystone-profile/season/1/rewards?');
@@ -140,39 +116,24 @@ async function getGreatVault(accessToken, url) {
       'Error getting Great Vault data:',
       error.response ? error.response.data : error.message
     );
-    // throw error;
   }
 }
 
-// Endpoint para obter e exibir as informa��es da guilda
-const fs = require('fs');
-const path = require('path');
-
 app.get('/guild-info', async (req, res) => {
   try {
-    console.log('Iniciando a obtenção do token de acesso...');
     const accessToken = await getBlizzardAccessToken(clientId, clientSecret);
-    console.log('Token de acesso obtido:', accessToken);
-
-    console.log('Obtendo o roster da guilda...');
     const guildRoster = await getGuildRoster(realm, guildName, accessToken);
-    console.log('Roster da guilda obtido:', guildRoster);
 
     let result = '';
     const mockFilePath = path.join(__dirname, 'mockData.json');
 
-    // Zerar o arquivo antes de começar o loop
     fs.writeFileSync(mockFilePath, '[]', 'utf8');
-    console.log(`Arquivo ${mockFilePath} foi zerado.`);
 
     for (const member of guildRoster) {
       if (member.character.level >= 80 && member.rank <= 3) {
         const characterName = member.character.name;
         const characterHref = member.character.key.href;
 
-        console.log(`Obtendo informações do personagem: ${characterName}`);
-
-        // Atualiza o arquivo com o nome e href do personagem
         const currentMockData = JSON.parse(
           fs.readFileSync(mockFilePath, 'utf8')
         );
@@ -181,17 +142,12 @@ app.get('/guild-info', async (req, res) => {
           href: characterHref,
         });
 
-        // Grava os dados atualizados no arquivo
         fs.writeFileSync(
           mockFilePath,
           JSON.stringify(currentMockData, null, 2),
           'utf8'
         );
-        console.log(
-          `Dados do personagem ${characterName} foram gravados no mockData.json.`
-        );
 
-        // Apenas exibe no resultado para o cliente
         result += `Nome do Personagem: ${characterName}<br>`;
         result += `Link de Informações: ${characterHref}<br><br>`;
       }
@@ -204,28 +160,23 @@ app.get('/guild-info', async (req, res) => {
   }
 });
 
-// Função para obter o roster da guilda a partir do mockData.json
-// Função para obter o roster da guilda a partir do mockData.json
 async function getMockGuildRoster() {
   const mockFilePath = path.join(__dirname, 'mockData.json');
 
   try {
-    // Verifica se o arquivo mockData.json existe
     if (!fs.existsSync(mockFilePath)) {
       throw new Error('Arquivo mockData.json não encontrado.');
     }
 
-    // Lê e parseia o conteúdo do arquivo mockData.json
     const mockData = JSON.parse(fs.readFileSync(mockFilePath, 'utf8'));
 
-    // Simula o formato de retorno como a API original
     const mockRoster = mockData.map((character) => ({
       character: {
         name: character.name,
         key: { href: character.href },
-        level: 80, // Nível simulado, já que não temos o real no mock
+        level: 80,
       },
-      rank: 3, // Rank simulado
+      rank: 3,
     }));
 
     return mockRoster;
@@ -237,14 +188,7 @@ async function getMockGuildRoster() {
 
 app.get('/', async (req, res) => {
   try {
-    // console.log('Iniciando a obten��o do token de acesso...');
     const accessToken = await getBlizzardAccessToken(clientId, clientSecret);
-    // console.log('Token de acesso obtido:', accessToken);
-
-    // console.log('Obtendo o roster da guilda...');
-    // const guildRoster = await getGuildRoster(realm, guildName, accessToken);
-    // console.log('Roster da guilda obtido:', guildRoster);
-
     const guildRoster = await getMockGuildRoster();
 
     let result = [];
@@ -252,14 +196,11 @@ app.get('/', async (req, res) => {
     for (const member of guildRoster) {
       if (member.character.level >= 80 && member.rank <= 3) {
         const characterName = member.character.name;
-        // console.log(`Obtendo informa��es do personagem: ${characterName}`);
         const characterInfo = await getCharacterInfo(
           accessToken,
           member.character.key.href
         );
-        console.log('Informa��es do personagem:', characterInfo);
 
-        // Objeto de dados do personagem
         let characterData = {
           name: characterInfo.name,
           level: characterInfo.level,
@@ -273,70 +214,80 @@ app.get('/', async (req, res) => {
           allItems: [],
           enchantedItems: [],
           sockets: [],
+          embellishedItems: [],
           mythicDungeons: [],
           greatVaultScore: [],
           mythicPlusRating: [],
         };
 
-        // Tier Set
-        // console.log('Obtendo equipamentos do personagem...');
-
-        slots = ['CHEST', 'LEGS', 'FEET', 'WRIST', 'FINGER_1','FINGER_2', 'BACK', 'MAIN_HAND', 'OFF_HAND' ];
+        const slots = ['CHEST', 'LEGS', 'FEET', 'WRIST', 'FINGER_1', 'FINGER_2', 'BACK', 'MAIN_HAND', 'OFF_HAND'];
         const characterEquipment = await getCharacterEquipment(
           accessToken,
           characterInfo.equipment.href
         );
+
         for (const item of characterEquipment.equipped_items) {
+          characterData.allItems.push({
+            slot: item.slot.type,
+            level: item.level.display_string
+          });
 
-            // console.log(item)
+          console.log(item)
 
-           
-           characterData.allItems.push({
-                slot: item.slot.type,
-                level: item.level.display_string,
-                quality: item.quality.type,
-           });
-
+          // Verificação de Tier Set
           if (item.set) {
             characterData.tierSet.push({
               slot: item.slot.type,
-              level: item.level.display_string,
-              quality: item.quality.type,
+              level: item.level.display_string
             });
           }
 
-          if( slots.includes(item.slot.type)){
 
-            if(item.enchantments){
-                characterData.enchantedItems.push({
-                    slot: item.slot.type,
-                    level: item.level.display_string,
-                    enchanted: true,
-                  });
-            }else{
-                characterData.enchantedItems.push({
-                    slot: item.slot.type,
-                    level: item.level.display_string,
-                    enchanted: false,
-                  });
-            }
-            
+           // Verificar se o item é embelezado
+          if (item.limit_category && item.limit_category.includes('Unique-Equipped: Embellished (2)')) {
+            const spellsDescription = item.spells ? item.spells.map(spell => spell.description) : [];
+            characterData.embellishedItems.push({
+              slot: item.slot.type,
+              level: item.level.display_string,
+              spells: spellsDescription,
+            });
           }
 
-          if(item.sockets){
-            characterData.sockets.push({
+
+          // Verificação de itens encantados
+          if (slots.includes(item.slot.type)) {
+            if (item.enchantments) {
+              characterData.enchantedItems.push({
                 slot: item.slot.type,
                 level: item.level.display_string,
-                sockets: item.sockets ? item.sockets.map(socket => ({
-                    type: socket.socket_type,
-                    gem: socket.item ? socket.item.name : null // Verifica se há uma gema no socket
-                  })) : []
-            });
+                enchanted: true,
+              });
+            } else {
+              characterData.enchantedItems.push({
+                slot: item.slot.type,
+                level: item.level.display_string,
+                enchanted: false,
+              });
+            }
           }
+
+
+         // Verificar se o item possui sockets e se está socketado
+        if (item.sockets) {
+          const socketed = item.sockets.some(socket => socket.item);
+          characterData.sockets.push({
+            slot: item.slot.type,
+            level: item.level.display_string,
+            sockets: item.sockets.map(socket => ({
+              type: socket.socket_type,
+              gem: socket.item ? socket.item.name : null,
+            })),
+            socketed: socketed,
+          });
+        }
         }
 
-        // Mythic Plus
-        // console.log('Obtendo dados do Mythic Plus...');
+        // Mythic+ e Great Vault
         const mythicPlusData = await getCharacterMythicPlus(
           accessToken,
           characterInfo.mythic_keystone_profile.href
@@ -350,8 +301,6 @@ app.get('/', async (req, res) => {
           }
         }
 
-        // Great Vault
-        // console.log('Obtendo dados do Great Vault...');
         const greatVaultData = await getGreatVault(
           accessToken,
           characterInfo.mythic_keystone_profile.href
@@ -359,18 +308,8 @@ app.get('/', async (req, res) => {
         if (greatVaultData && greatVaultData.rewards) {
           for (const reward of greatVaultData.rewards) {
             characterData.greatVaultScore.push({
-              name: reward.name,
-              thisWeek: reward.this_week,
-            });
-          }
-        }
-
-        // Mythic+ Rating
-        if (mythicPlusData && mythicPlusData.ratings) {
-          for (const rating of mythicPlusData.ratings) {
-            characterData.mythicPlusRating.push({
-              name: rating.name,
-              rating: rating.rating,
+              slot: reward.slot.type,
+              score: reward.level.display_string,
             });
           }
         }
@@ -383,11 +322,11 @@ app.get('/', async (req, res) => {
 
     res.json(result);
   } catch (error) {
-    console.error('Erro ao obter informa��es da guilda:', error);
-    res.status(500).json({ error: 'Erro ao recuperar informa��es da guilda' });
+    console.error('Erro ao obter informações:', error);
+    res.status(500).json({ error: 'Erro ao obter informações.' });
   }
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Servidor rodando em http://localhost:${port}`);
 });
