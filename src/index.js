@@ -232,7 +232,7 @@ app.get('/', async (req, res) => {
             level: item.level.display_string
           });
 
-          console.log(item)
+          // console.log(item)
 
           // Verificação de Tier Set
           if (item.set) {
@@ -256,19 +256,23 @@ app.get('/', async (req, res) => {
 
           // Verificação de itens encantados
           if (slots.includes(item.slot.type)) {
-            if (item.enchantments) {
-              characterData.enchantedItems.push({
-                slot: item.slot.type,
-                level: item.level.display_string,
-                enchanted: true,
-              });
-            } else {
-              characterData.enchantedItems.push({
-                slot: item.slot.type,
-                level: item.level.display_string,
-                enchanted: false,
-              });
+            if(item.inventory_type.type !== 'SHIELD' && item.inventory_type.type !=='HOLDABLE' ){
+              // console.log(item.inventory_type.type)
+              if (item.enchantments) {
+                characterData.enchantedItems.push({
+                  slot: item.slot.type,
+                  level: item.level.display_string,
+                  enchanted: true,
+                });
+              } else {
+                characterData.enchantedItems.push({
+                  slot: item.slot.type,
+                  level: item.level.display_string,
+                  enchanted: false,
+                });
+              }
             }
+           
           }
 
 
@@ -314,7 +318,7 @@ app.get('/', async (req, res) => {
           }
         }
 
-        console.log(characterData)
+        // console.log(characterData)
 
         result.push(characterData);
       }
