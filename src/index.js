@@ -115,7 +115,7 @@ async function getGuildRoster(realm, guildName, accessToken) {
 async function getCharacterMythicPlus(accessToken, url) {
   try {
     const response = await axios.get(
-      `${url}/mythic-plus&locale=${locale}&access_token=${accessToken}`
+      `${url}&locale=${locale}&access_token=${accessToken}`
     );
     return response.data;
   } catch (error) {
@@ -130,8 +130,9 @@ async function getCharacterMythicPlus(accessToken, url) {
 // Fun��o para obter dados do Great Vault
 async function getGreatVault(accessToken, url) {
   try {
+    url = url.replace('mythic-keystone-profile?', 'mythic-keystone-profile/season/1/rewards?');
     const response = await axios.get(
-      `${url}/great-vault&locale=${locale}&access_token=${accessToken}`
+      `${url}&locale=${locale}&access_token=${accessToken}`
     );
     return response.data;
   } catch (error) {
@@ -236,11 +237,11 @@ async function getMockGuildRoster() {
 
 app.get('/', async (req, res) => {
   try {
-    console.log('Iniciando a obten��o do token de acesso...');
+    // console.log('Iniciando a obten��o do token de acesso...');
     const accessToken = await getBlizzardAccessToken(clientId, clientSecret);
-    console.log('Token de acesso obtido:', accessToken);
+    // console.log('Token de acesso obtido:', accessToken);
 
-    console.log('Obtendo o roster da guilda...');
+    // console.log('Obtendo o roster da guilda...');
     // const guildRoster = await getGuildRoster(realm, guildName, accessToken);
     // console.log('Roster da guilda obtido:', guildRoster);
 
@@ -251,7 +252,7 @@ app.get('/', async (req, res) => {
     for (const member of guildRoster) {
       if (member.character.level >= 80 && member.rank <= 3) {
         const characterName = member.character.name;
-        console.log(`Obtendo informa��es do personagem: ${characterName}`);
+        // console.log(`Obtendo informa��es do personagem: ${characterName}`);
         const characterInfo = await getCharacterInfo(
           accessToken,
           member.character.key.href
@@ -269,31 +270,76 @@ app.get('/', async (req, res) => {
             average: characterInfo.average_item_level,
           },
           tierSet: [],
+          allItems: [],
+          enchantedItems: [],
+          sockets: [],
           mythicDungeons: [],
           greatVaultScore: [],
           mythicPlusRating: [],
         };
 
         // Tier Set
-        console.log('Obtendo equipamentos do personagem...');
+        // console.log('Obtendo equipamentos do personagem...');
+
+        slots = ['CHEST', 'LEGS', 'FEET', 'WRIST', 'FINGER_1','FINGER_2', 'BACK', 'MAIN_HAND', 'OFF_HAND' ];
         const characterEquipment = await getCharacterEquipment(
           accessToken,
           characterInfo.equipment.href
         );
         for (const item of characterEquipment.equipped_items) {
+
+            // console.log(item)
+
+           
+           characterData.allItems.push({
+                slot: item.slot.type,
+                level: item.level.display_string,
+                quality: item.quality.type,
+           });
+
           if (item.set) {
             characterData.tierSet.push({
               slot: item.slot.type,
               level: item.level.display_string,
+              quality: item.quality.type,
+            });
+          }
+
+          if( slots.includes(item.slot.type)){
+
+            if(item.enchantments){
+                characterData.enchantedItems.push({
+                    slot: item.slot.type,
+                    level: item.level.display_string,
+                    enchanted: true,
+                  });
+            }else{
+                characterData.enchantedItems.push({
+                    slot: item.slot.type,
+                    level: item.level.display_string,
+                    enchanted: false,
+                  });
+            }
+            
+          }
+
+          if(item.sockets){
+            characterData.sockets.push({
+                slot: item.slot.type,
+                level: item.level.display_string,
+                sockets: item.sockets ? item.sockets.map(socket => ({
+                    type: socket.socket_type,
+                    gem: socket.item ? socket.item.name : null // Verifica se há uma gema no socket
+                  })) : []
             });
           }
         }
 
         // Mythic Plus
-        console.log('Obtendo dados do Mythic Plus...');
+        // console.log('Obtendo dados do Mythic Plus...');
         const mythicPlusData = await getCharacterMythicPlus(
           accessToken,
-          characterInfo.equipment.href
+          characterInfo.mythic_keystone_profile.href
         );
         if (mythicPlusData && mythicPlusData.dungeons) {
           for (const dungeon of mythicPlusData.dungeons) {
@@ -305,10 +351,10 @@ app.get('/', async (req, res) => {
         }
 
         // Great Vault
-        console.log('Obtendo dados do Great Vault...');
+        // console.log('Obtendo dados do Great Vault...');
         const greatVaultData = await getGreatVault(
           accessToken,
-          characterInfo.equipment.href
+          characterInfo.mythic_keystone_profile.href
         );
         if (greatVaultData && greatVaultData.rewards) {
           for (const reward of greatVaultData.rewards) {
@@ -328,6 +374,8 @@ app.get('/', async (req, res) => {
             });
           }
         }
+
+        console.log(characterData)
 
         result.push(characterData);
       }
