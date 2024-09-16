@@ -68,10 +68,6 @@
     "href": "https://us.api.blizzard.com/profile/wow/character/azralon/xirubata?namespace=profile-us"
   },
   {
-    "name": "Thelink",
-    "href": "https://us.api.blizzard.com/profile/wow/character/azralon/thelink?namespace=profile-us"
-  },
-  {
     "name": "Emerich",
     "href": "https://us.api.blizzard.com/profile/wow/character/azralon/emerich?namespace=profile-us"
   },
@@ -110,9 +106,5 @@
   {
     "name": "Xicara",
     "href": "https://us.api.blizzard.com/profile/wow/character/stormrage/xicara?namespace=profile-us"
-  },
-  {
-    "name": "Ikki",
-    "href": "https://us.api.blizzard.com/profile/wow/character/moonrunner/ikki?namespace=profile-us"
   }
 ]
