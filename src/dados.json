@@ -5,8 +5,8 @@
     "race": "Orc",
     "class": "Monk",
     "itemLevel": {
-      "equipped": 598,
-      "average": 598
+      "equipped": 599,
+      "average": 599
     },
     "tierSet": [],
     "allItems": [
@@ -28,7 +28,7 @@
       },
       {
         "slot": "WAIST",
-        "level": "Item Level 590"
+        "level": "Item Level 603"
       },
       {
         "slot": "LEGS",
@@ -753,7 +753,7 @@
     "race": "Orc",
     "class": "Warrior",
     "itemLevel": {
-      "equipped": 597,
+      "equipped": 598,
       "average": 598
     },
     "tierSet": [],
@@ -796,7 +796,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 590"
+        "level": "Item Level 593"
       },
       {
         "slot": "FINGER_2",
@@ -816,7 +816,7 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 590"
+        "level": "Item Level 593"
       },
       {
         "slot": "OFF_HAND",
@@ -846,7 +846,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 590",
+        "level": "Item Level 593",
         "enchanted": false
       },
       {
@@ -861,7 +861,7 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 590",
+        "level": "Item Level 593",
         "enchanted": false
       },
       {
@@ -1176,7 +1176,7 @@
       {
         "slot": "FINGER_2",
         "level": "Item Level 593",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "BACK",
@@ -2960,8 +2960,8 @@
     "race": "Void Elf",
     "class": "Warlock",
     "itemLevel": {
-      "equipped": 607,
-      "average": 607
+      "equipped": 608,
+      "average": 608
     },
     "tierSet": [
       {
@@ -3012,7 +3012,7 @@
       },
       {
         "slot": "FINGER_2",
-        "level": "Item Level 606"
+        "level": "Item Level 616"
       },
       {
         "slot": "TRINKET_1",
@@ -3059,7 +3059,7 @@
       },
       {
         "slot": "FINGER_2",
-        "level": "Item Level 606",
+        "level": "Item Level 616",
         "enchanted": true
       },
       {
@@ -3118,21 +3118,21 @@
       },
       {
         "slot": "FINGER_2",
-        "level": "Item Level 606",
+        "level": "Item Level 616",
         "sockets": [
           {
             "type": {
               "type": "PRISMATIC",
               "name": "Prismatic Socket"
             },
-            "gem": "Quick Onyx"
+            "gem": "Versatile Ruby"
           },
           {
             "type": {
               "type": "PRISMATIC",
               "name": "Prismatic Socket"
             },
-            "gem": "Masterful Ruby"
+            "gem": "Versatile Ruby"
           }
         ],
         "socketed": true
@@ -4063,7 +4063,7 @@
     "class": "Priest",
     "itemLevel": {
       "equipped": 602,
-      "average": 603
+      "average": 604
     },
     "tierSet": [],
     "allItems": [

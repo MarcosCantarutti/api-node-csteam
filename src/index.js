@@ -5,6 +5,7 @@ const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const cron = require('node-cron');
+const moment = require('moment');
 
 dotenv.config();
 
@@ -238,6 +239,7 @@ async function refreshData() {
           mythicDungeons: [],
           greatVaultScore: [],
           mythicPlusRating: [],
+          latestRaidProgression: []
         };
 
         const slots = [
@@ -349,6 +351,27 @@ async function refreshData() {
           }
         }
 
+        const encountersUrl = characterInfo.encounters.href;
+        const encountersResponse = await getCharacterEncounters(accessToken, encountersUrl);
+    
+        const raidsUrl = encountersResponse.raids.href;
+        const raidsData = await getCharacterEncountersDetails(accessToken, raidsUrl);
+    
+        const expansionName = 'The War Within';  // Nome da expansão
+        const raidsInExpansion = getRaidsFromExpansion(raidsData, expansionName);
+    
+        if (raidsInExpansion) {
+          // Pegar a progressão da raid mais recente
+          const latestRaidProgression = getLatestRaidProgression(raidsInExpansion);
+    
+          if (latestRaidProgression) {
+    
+            characterData.latestRaidProgression.push({
+              latestRaidProgression
+            });
+          }
+        }
+
         result.push(characterData);
       }
     }
@@ -369,6 +392,99 @@ app.get('/', async (req, res) => {
     res.status(500).json({ error: 'Erro ao obter informações.' });
   }
 });
+
+async function getCharacterEncounters(accessToken, url) {
+  try {
+    const response = await axios.get(
+      `${url}&locale=${locale}&access_token=${accessToken}`
+    );
+    return response.data;
+  } catch (error) {
+    console.error(
+      'Error getting character encounters data:',
+      error.response ? error.response.data : error.message
+    );
+  }
+}
+
+async function getCharacterEncountersDetails(accessToken, url) {
+  try {
+    const response = await axios.get(
+      `${url}&locale=${locale}&access_token=${accessToken}`
+    );
+    return response.data;
+  } catch (error) {
+    console.error(
+      'Error getting character encounter details:',
+      error.response ? error.response.data : error.message
+    );
+  }
+}
+
+function getRaidsFromExpansion(raidsData, expansionName) {
+
+  const expansion = raidsData.expansions.find(exp => exp.expansion.name === expansionName);
+
+  // return expansion
+
+  if (!expansion) {
+    console.log(`Expansão "${expansionName}" não encontrada.`);
+    return null;
+  }
+
+  // Listar todas as raids da expansão
+  const raids = expansion.instances.map(raid => raid.instance.name);
+  console.log(`Raids disponíveis na expansão "${expansionName}":`, raids);
+
+  return expansion.instances;
+}
+
+// Função para verificar se o boss foi morto na semana atual
+function isKilledThisWeek(timestamp) {
+  const killDate = moment(timestamp);
+  const startOfWeek = moment().startOf('isoWeek'); // Início da semana atual
+  return killDate.isSameOrAfter(startOfWeek);
+}
+
+function getLatestRaidProgression(instances) {
+  // Supondo que a raid mais recente esteja no final da lista (ajustar se necessário)
+  const latestRaid = instances[instances.length - 1];
+
+  if (!latestRaid) {
+    console.log('Nenhuma raid encontrada.');
+    return null;
+  }
+
+  const { modes } = latestRaid;
+
+  // Iterar sobre os modos e verificar progresso e mortes na semana
+  const raidStatus = {
+    name: latestRaid.instance.name,
+    normal: {
+      status: modes.find(mode => mode.difficulty.type === 'NORMAL')?.status.name || 'Unknown',
+      completedBosses: modes.find(mode => mode.difficulty.type === 'NORMAL')?.progress.completed_count || 0,
+      totalBosses: modes.find(mode => mode.difficulty.type === 'NORMAL')?.progress.total_count || 0,
+      bossesKilledThisWeek: modes.find(mode => mode.difficulty.type === 'NORMAL')
+        ?.progress.encounters.filter(encounter => isKilledThisWeek(encounter.last_kill_timestamp)).length || 0
+    },
+    heroic: {
+      status: modes.find(mode => mode.difficulty.type === 'HEROIC')?.status.name || 'Unknown',
+      completedBosses: modes.find(mode => mode.difficulty.type === 'HEROIC')?.progress.completed_count || 0,
+      totalBosses: modes.find(mode => mode.difficulty.type === 'HEROIC')?.progress.total_count || 0,
+      bossesKilledThisWeek: modes.find(mode => mode.difficulty.type === 'HEROIC')
+        ?.progress.encounters.filter(encounter => isKilledThisWeek(encounter.last_kill_timestamp)).length || 0
+    },
+    mythic: {
+      status: modes.find(mode => mode.difficulty.type === 'MYTHIC')?.status.name || 'Unknown',
+      completedBosses: modes.find(mode => mode.difficulty.type === 'MYTHIC')?.progress.completed_count || 0,
+      totalBosses: modes.find(mode => mode.difficulty.type === 'MYTHIC')?.progress.total_count || 0,
+      bossesKilledThisWeek: modes.find(mode => mode.difficulty.type === 'MYTHIC')
+        ?.progress.encounters.filter(encounter => isKilledThisWeek(encounter.last_kill_timestamp)).length || 0
+    }
+  };
+
+  return raidStatus;
+}
 
 // Configura o cron job para rodar a cada 6 horas
 cron.schedule('0 */6 * * *', async () => {
