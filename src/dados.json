@@ -1,0 +1,4212 @@
+[
+  {
+    "name": "Shikku",
+    "level": 80,
+    "race": "Orc",
+    "class": "Monk",
+    "itemLevel": {
+      "equipped": 598,
+      "average": 598
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 593"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 593",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Vladimirovit",
+    "level": 80,
+    "race": "Blood Elf",
+    "class": "Hunter",
+    "itemLevel": {
+      "equipped": 597,
+      "average": 598
+    },
+    "tierSet": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 610"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 584"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 587"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 616"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 580",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 580",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 613",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 616",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "spells": [
+          "Use: Offer to bind your spirit with that of another player also wearing this ring. This binding is permanent, but can be severed at the cost of 1 Blasphemite. (2 Min Cooldown)",
+          "Equip: Your spells and abilities have a chance to empower each unique gem color of an ally's socketed gems. This boon grants 391 to each empowered secondary stat for 15 sec. This effect will always target your bonded ally, if able."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Bandaíìd",
+    "level": 80,
+    "race": "Blood Elf",
+    "class": "Paladin",
+    "itemLevel": {
+      "equipped": 598,
+      "average": 600
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 586"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 571"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 586",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 600",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 600",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 600",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Xiaobei",
+    "level": 80,
+    "race": "Blood Elf",
+    "class": "Monk",
+    "itemLevel": {
+      "equipped": 594,
+      "average": 597
+    },
+    "tierSet": [
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 584"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 603"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 590",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 580",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 603",
+        "enchanted": false
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 580",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": null
+          }
+        ],
+        "socketed": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": null
+          }
+        ],
+        "socketed": false
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Sary",
+    "level": 80,
+    "race": "Blood Elf",
+    "class": "Paladin",
+    "itemLevel": {
+      "equipped": 600,
+      "average": 600
+    },
+    "tierSet": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 616"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 616"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 597"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 577"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 30"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 597",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 577",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 593",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Xerkron",
+    "level": 80,
+    "race": "Orc",
+    "class": "Warrior",
+    "itemLevel": {
+      "equipped": 597,
+      "average": 598
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 599"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 597"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 584"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 590"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 584",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 590",
+        "enchanted": false
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 590",
+        "enchanted": false
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 599",
+        "sockets": [
+          {
+            "type": {
+              "type": "TINKER",
+              "name": "Tinker Socket"
+            },
+            "gem": "Tinker: Heartseeking Health Injector"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 603",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Quick Onyx"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 590",
+        "spells": [
+          "Equip: Your damaging spells and abilities have the chance to grant Vivaciousness, increasing secondary stats by 735 and Speed or Avoidance by 182 based on the school it was activated from."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Sanshain",
+    "level": 80,
+    "race": "Blood Elf",
+    "class": "Demon Hunter",
+    "itemLevel": {
+      "equipped": 600,
+      "average": 600
+    },
+    "tierSet": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 593"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 593",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 603",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": null
+          }
+        ],
+        "socketed": false
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Riiae",
+    "level": 80,
+    "race": "Blood Elf",
+    "class": "Death Knight",
+    "itemLevel": {
+      "equipped": 596,
+      "average": 596
+    },
+    "tierSet": [
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 600"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 580",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 613",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 580",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Your damaging spells and abilities have the chance to grant Vivaciousness, increasing secondary stats by 735 and Speed or Avoidance by 182 based on the school it was activated from."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Restonelson",
+    "level": 80,
+    "race": "Dwarf",
+    "class": "Shaman",
+    "itemLevel": {
+      "equipped": 602,
+      "average": 602
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 603"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 603",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Versatile Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 590",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Versatile Emerald"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Hopewing",
+    "level": 80,
+    "race": "Dracthyr",
+    "class": "Evoker",
+    "itemLevel": {
+      "equipped": 600,
+      "average": 600
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 615"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 580",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 610",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Amber"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 615",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Pirizard",
+    "level": 80,
+    "race": "Dracthyr",
+    "class": "Evoker",
+    "itemLevel": {
+      "equipped": 604,
+      "average": 604
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 586"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 586",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "enchanted": false
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Amber"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 590",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Amber"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Soulheals",
+    "level": 80,
+    "race": "Nightborne",
+    "class": "Priest",
+    "itemLevel": {
+      "equipped": 596,
+      "average": 596
+    },
+    "tierSet": [
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 616"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 616"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 571"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 590",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Ruby"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "spells": [
+          "Use: Offer to bind your spirit with that of another player also wearing this ring. This binding is permanent, but can be severed at the cost of 1 Blasphemite. (2 Min Cooldown)",
+          "Equip: Your spells and abilities have a chance to empower each unique gem color of an ally's socketed gems. This boon grants 391 to each empowered secondary stat for 15 sec. This effect will always target your bonded ally, if able."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Lakanegro",
+    "level": 80,
+    "race": "Night Elf",
+    "class": "Rogue",
+    "itemLevel": {
+      "equipped": 607,
+      "average": 607
+    },
+    "tierSet": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Kopsage",
+    "level": 80,
+    "race": "Dwarf",
+    "class": "Mage",
+    "itemLevel": {
+      "equipped": 607,
+      "average": 607
+    },
+    "tierSet": [
+      {
+        "slot": "LEGS",
+        "level": "Item Level 616"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 616"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 616",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative."
+        ]
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Zuldeads",
+    "level": 80,
+    "race": "Human",
+    "class": "Death Knight",
+    "itemLevel": {
+      "equipped": 604,
+      "average": 605
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 610",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Emerald"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Boiss",
+    "level": 80,
+    "race": "Tauren",
+    "class": "Druid",
+    "itemLevel": {
+      "equipped": 603,
+      "average": 603
+    },
+    "tierSet": [
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 610"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 599"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 600",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 610",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 599",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": false
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 599",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": null
+          }
+        ],
+        "socketed": false
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Xirubata",
+    "level": 80,
+    "race": "Dwarf",
+    "class": "Shaman",
+    "itemLevel": {
+      "equipped": 608,
+      "average": 608
+    },
+    "tierSet": [
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 619"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 602"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 616"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 616",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 616",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Your damaging spells and abilities have a chance to deal 92,300 damage to your target. The magic school chosen is based upon your selection of socketed Khaz Algar gems."
+        ]
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 602",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Emerich",
+    "level": 80,
+    "race": "Night Elf",
+    "class": "Warrior",
+    "itemLevel": {
+      "equipped": 603,
+      "average": 604
+    },
+    "tierSet": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 597"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 597",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Ryusow",
+    "level": 80,
+    "race": "Night Elf",
+    "class": "Demon Hunter",
+    "itemLevel": {
+      "equipped": 595,
+      "average": 595
+    },
+    "tierSet": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "SHIRT",
+        "level": "Item Level 1"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 580"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 574"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 597"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 580",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 597",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "enchanted": true
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 600",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Maxlocke",
+    "level": 80,
+    "race": "Void Elf",
+    "class": "Warlock",
+    "itemLevel": {
+      "equipped": 607,
+      "average": 607
+    },
+    "tierSet": [
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 619"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 613",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 613",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Quick Onyx"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Ruby"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Mìúdex",
+    "level": 80,
+    "race": "Human",
+    "class": "Warlock",
+    "itemLevel": {
+      "equipped": 589,
+      "average": 589
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 584"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 584"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 577"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 577"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 580"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 580",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Littlethunde",
+    "level": 80,
+    "race": "Dwarf",
+    "class": "Shaman",
+    "itemLevel": {
+      "equipped": 605,
+      "average": 605
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 619",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [
+      {
+        "slot": "BACK",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Holamaster",
+    "level": 80,
+    "race": "Dwarf",
+    "class": "Mage",
+    "itemLevel": {
+      "equipped": 606,
+      "average": 606
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 613"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 613",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 606",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 613",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Versatile Onyx"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Deadly Sapphire"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative."
+        ]
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Jecahdk",
+    "level": 80,
+    "race": "Night Elf",
+    "class": "Death Knight",
+    "itemLevel": {
+      "equipped": 602,
+      "average": 602
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 597"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 597"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "TABARD",
+        "level": "Item Level 1"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 600",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 597",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 603",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 590",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Versatile Ruby"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Your damaging spells and abilities have a chance to deal 60,918 damage to your target. The magic school chosen is based upon your selection of socketed Khaz Algar gems."
+        ]
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Your damaging spells and abilities have a chance to deal 60,918 damage to your target. The magic school chosen is based upon your selection of socketed Khaz Algar gems."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Fuueguitoo",
+    "level": 80,
+    "race": "Dwarf",
+    "class": "Shaman",
+    "itemLevel": {
+      "equipped": 603,
+      "average": 603
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 606"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 590",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 603",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 606",
+        "enchanted": true
+      }
+    ],
+    "sockets": [],
+    "embellishedItems": [
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Ikki",
+    "level": 80,
+    "race": "Night Elf",
+    "class": "Druid",
+    "itemLevel": {
+      "equipped": 608,
+      "average": 608
+    },
+    "tierSet": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      }
+    ],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 606",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "NECK",
+        "level": "Item Level 610",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Quick Onyx"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Emerald"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 610",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [
+      {
+        "slot": "LEGS",
+        "level": "Item Level 606",
+        "spells": [
+          "Equip: Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative."
+        ]
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  },
+  {
+    "name": "Xicara",
+    "level": 80,
+    "race": "Human",
+    "class": "Priest",
+    "itemLevel": {
+      "equipped": 602,
+      "average": 603
+    },
+    "tierSet": [],
+    "allItems": [
+      {
+        "slot": "HEAD",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "NECK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 584"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "WAIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 600"
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "HANDS",
+        "level": "Item Level 603"
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593"
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 590"
+      },
+      {
+        "slot": "TRINKET_1",
+        "level": "Item Level 610"
+      },
+      {
+        "slot": "TRINKET_2",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606"
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 616"
+      },
+      {
+        "slot": "OFF_HAND",
+        "level": "Item Level 610"
+      }
+    ],
+    "enchantedItems": [
+      {
+        "slot": "CHEST",
+        "level": "Item Level 610",
+        "enchanted": true
+      },
+      {
+        "slot": "LEGS",
+        "level": "Item Level 593",
+        "enchanted": false
+      },
+      {
+        "slot": "FEET",
+        "level": "Item Level 600",
+        "enchanted": false
+      },
+      {
+        "slot": "WRIST",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593",
+        "enchanted": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 590",
+        "enchanted": true
+      },
+      {
+        "slot": "BACK",
+        "level": "Item Level 606",
+        "enchanted": false
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 616",
+        "enchanted": true
+      }
+    ],
+    "sockets": [
+      {
+        "slot": "FINGER_1",
+        "level": "Item Level 593",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Culminating Blasphemite"
+          }
+        ],
+        "socketed": true
+      },
+      {
+        "slot": "FINGER_2",
+        "level": "Item Level 590",
+        "sockets": [
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Emerald"
+          }
+        ],
+        "socketed": true
+      }
+    ],
+    "embellishedItems": [],
+    "mythicDungeons": [],
+    "greatVaultScore": [],
+    "mythicPlusRating": []
+  }
+]

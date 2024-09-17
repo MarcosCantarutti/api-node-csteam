@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const cron = require('node-cron');
 
 dotenv.config();
 
@@ -18,6 +19,8 @@ const region = process.env.REGION;
 const locale = process.env.LOCALE;
 const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
+
+const dataFilePath = path.join(__dirname, 'dados.json');
 
 async function getBlizzardAccessToken(clientId, clientSecret) {
   const url = `https://${region}.battle.net/oauth/token`;
@@ -106,7 +109,10 @@ async function getCharacterMythicPlus(accessToken, url) {
 
 async function getGreatVault(accessToken, url) {
   try {
-    url = url.replace('mythic-keystone-profile?', 'mythic-keystone-profile/season/1/rewards?');
+    url = url.replace(
+      'mythic-keystone-profile?',
+      'mythic-keystone-profile/season/1/rewards?'
+    );
     const response = await axios.get(
       `${url}&locale=${locale}&access_token=${accessToken}`
     );
@@ -186,7 +192,21 @@ async function getMockGuildRoster() {
   }
 }
 
-app.get('/', async (req, res) => {
+app.get('/dados', (req, res) => {
+  try {
+    if (fs.existsSync(dataFilePath)) {
+      const data = JSON.parse(fs.readFileSync(dataFilePath, 'utf8'));
+      res.json(data);
+    } else {
+      res.status(404).json({ error: 'Arquivo dados.json não encontrado.' });
+    }
+  } catch (error) {
+    console.error('Erro ao ler dados.json:', error);
+    res.status(500).json({ error: 'Erro ao ler dados.json.' });
+  }
+});
+
+async function refreshData() {
   try {
     const accessToken = await getBlizzardAccessToken(clientId, clientSecret);
     const guildRoster = await getMockGuildRoster();
@@ -220,7 +240,17 @@ app.get('/', async (req, res) => {
           mythicPlusRating: [],
         };
 
-        const slots = ['CHEST', 'LEGS', 'FEET', 'WRIST', 'FINGER_1', 'FINGER_2', 'BACK', 'MAIN_HAND', 'OFF_HAND'];
+        const slots = [
+          'CHEST',
+          'LEGS',
+          'FEET',
+          'WRIST',
+          'FINGER_1',
+          'FINGER_2',
+          'BACK',
+          'MAIN_HAND',
+          'OFF_HAND',
+        ];
         const characterEquipment = await getCharacterEquipment(
           accessToken,
           characterInfo.equipment.href
@@ -229,23 +259,25 @@ app.get('/', async (req, res) => {
         for (const item of characterEquipment.equipped_items) {
           characterData.allItems.push({
             slot: item.slot.type,
-            level: item.level.display_string
+            level: item.level.display_string,
           });
-
-          // console.log(item)
 
           // Verificação de Tier Set
           if (item.set) {
             characterData.tierSet.push({
               slot: item.slot.type,
-              level: item.level.display_string
+              level: item.level.display_string,
             });
           }
 
-
-           // Verificar se o item é embelezado
-          if (item.limit_category && item.limit_category.includes('Unique-Equipped: Embellished (2)')) {
-            const spellsDescription = item.spells ? item.spells.map(spell => spell.description) : [];
+          // Verificar se o item é embelezado
+          if (
+            item.limit_category &&
+            item.limit_category.includes('Unique-Equipped: Embellished (2)')
+          ) {
+            const spellsDescription = item.spells
+              ? item.spells.map((spell) => spell.description)
+              : [];
             characterData.embellishedItems.push({
               slot: item.slot.type,
               level: item.level.display_string,
@@ -253,11 +285,12 @@ app.get('/', async (req, res) => {
             });
           }
 
-
           // Verificação de itens encantados
           if (slots.includes(item.slot.type)) {
-            if(item.inventory_type.type !== 'SHIELD' && item.inventory_type.type !=='HOLDABLE' ){
-              // console.log(item.inventory_type.type)
+            if (
+              item.inventory_type.type !== 'SHIELD' &&
+              item.inventory_type.type !== 'HOLDABLE'
+            ) {
               if (item.enchantments) {
                 characterData.enchantedItems.push({
                   slot: item.slot.type,
@@ -272,23 +305,21 @@ app.get('/', async (req, res) => {
                 });
               }
             }
-           
           }
 
-
-         // Verificar se o item possui sockets e se está socketado
-        if (item.sockets) {
-          const socketed = item.sockets.some(socket => socket.item);
-          characterData.sockets.push({
-            slot: item.slot.type,
-            level: item.level.display_string,
-            sockets: item.sockets.map(socket => ({
-              type: socket.socket_type,
-              gem: socket.item ? socket.item.name : null,
-            })),
-            socketed: socketed,
-          });
-        }
+          // Verificar se o item possui sockets e se está socketado
+          if (item.sockets) {
+            const socketed = item.sockets.some((socket) => socket.item);
+            characterData.sockets.push({
+              slot: item.slot.type,
+              level: item.level.display_string,
+              sockets: item.sockets.map((socket) => ({
+                type: socket.socket_type,
+                gem: socket.item ? socket.item.name : null,
+              })),
+              socketed: socketed,
+            });
+          }
         }
 
         // Mythic+ e Great Vault
@@ -318,17 +349,31 @@ app.get('/', async (req, res) => {
           }
         }
 
-        // console.log(characterData)
-
         result.push(characterData);
       }
     }
 
-    res.json(result);
+    fs.writeFileSync(dataFilePath, JSON.stringify(result, null, 2), 'utf8');
+    console.log('Dados atualizados com sucesso!');
+  } catch (error) {
+    console.error('Erro ao atualizar dados:', error);
+  }
+}
+
+app.get('/', async (req, res) => {
+  try {
+    await refreshData();
+    res.json({ message: 'Dados atualizados com sucesso!' });
   } catch (error) {
     console.error('Erro ao obter informações:', error);
     res.status(500).json({ error: 'Erro ao obter informações.' });
   }
+});
+
+// Configura o cron job para rodar a cada 6 horas
+cron.schedule('0 */6 * * *', async () => {
+  console.log('Iniciando atualização de dados programada...');
+  await refreshData();
 });
 
 app.listen(port, () => {
