@@ -109,13 +109,14 @@ async function getCharacterMythicPlus(accessToken, url) {
 
 async function getGreatVault(accessToken, url) {
   try {
-    url = url.replace(
-      'mythic-keystone-profile?',
-      'mythic-keystone-profile/season/1/rewards?'
-    );
+    // url = url.replace(
+    //   'mythic-keystone-profile?',
+    //   'mythic-keystone-profile/season/17?'
+    // );
     const response = await axios.get(
       `${url}&locale=${locale}&access_token=${accessToken}`
     );
+    // console.log(response.data)
     return response.data;
   } catch (error) {
     console.error(
