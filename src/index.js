@@ -95,7 +95,7 @@ async function getGuildRoster(realm, guildName, accessToken) {
 
 // Função para obter a data do último reset semanal (terça-feira às 12h)
 function getLastWeeklyReset() {
-  
+
   const now = new Date();
   const currentDay = now.getUTCDay(); 
   const currentHour = now.getUTCHours(); 
@@ -377,27 +377,9 @@ async function refreshData() {
               mythicRating: run.mythic_rating ? run.mythic_rating.rating : null  // Nota da Mythic Plus
             });
           }
-          if (completedThisWeek === 0) {
-            characterData.mythicDungeons.push({
-              name: 'Nenhuma dungeon completada essa semana',
-              thisWeek: 0,
-              keystoneLevel: null,
-              isCompletedInTime: null,
-              duration: null,
-              mythicRating: null
-            });
-          }
-        } else {
-          characterData.mythicDungeons = [{
-            name: 'Nenhuma dungeon completada essa semana',
-            thisWeek: 0,
-            keystoneLevel: null,
-            isCompletedInTime: null,
-            duration: null,
-            mythicRating: null
-          }];
+      
         }
-
+        
         // const greatVaultData = await getGreatVault(
         //   accessToken,
         //   characterInfo.mythic_keystone_profile.href
