@@ -93,6 +93,25 @@ async function getGuildRoster(realm, guildName, accessToken) {
   }
 }
 
+// Função para obter a data do último reset semanal (terça-feira às 12h)
+function getLastWeeklyReset() {
+  
+  const now = new Date();
+  const currentDay = now.getUTCDay(); 
+  const currentHour = now.getUTCHours(); 
+
+  let daysSinceTuesday = (currentDay + 7 - 2) % 7; 
+  let lastReset = new Date(now);
+
+  lastReset.setUTCDate(now.getUTCDate() - daysSinceTuesday);
+  lastReset.setUTCHours(12, 0, 0, 0); 
+
+  if (currentDay === 2 && currentHour < 12) {
+    lastReset.setUTCDate(lastReset.getUTCDate() - 7);
+  }
+  return lastReset.getTime();
+}
+
 async function getCharacterMythicPlus(accessToken, url) {
   try {
     const response = await axios.get(
@@ -237,8 +256,8 @@ async function refreshData() {
           sockets: [],
           embellishedItems: [],
           mythicDungeons: [],
-          greatVaultScore: [],
           mythicPlusRating: [],
+          greatVaultScore: [],
         };
 
         const slots = [
@@ -328,34 +347,77 @@ async function refreshData() {
           accessToken,
           characterInfo.mythic_keystone_profile.href
         );
-        if (mythicPlusData && mythicPlusData.dungeons) {
-          for (const dungeon of mythicPlusData.dungeons) {
+        
+        if (mythicPlusData && mythicPlusData.current_period && mythicPlusData.current_period.best_runs) {
+
+          characterData.mythicPlusRating.push(mythicPlusData.current_mythic_rating.rating);
+
+          const lastResetTimestamp = getLastWeeklyReset(); // Obter o timestamp do último reset semanal
+          const bestRuns = mythicPlusData.current_period.best_runs;
+        
+          let completedThisWeek = 0;
+          characterData.mythicDungeons = [];
+        
+          // Itera sobre as dungeons feitas
+          for (const run of bestRuns) {
+            // Verifica se a dungeon foi completada após o reset semanal
+            const isThisWeek = run.completed_timestamp >= lastResetTimestamp;
+        
+            if (isThisWeek) {
+              completedThisWeek++;
+            }
+        
+            // Adiciona os dados da dungeon ao array characterData.mythicDungeons
             characterData.mythicDungeons.push({
-              name: dungeon.name,
-              thisWeek: dungeon.this_week,
+              name: run.dungeon.name,
+              thisWeek: isThisWeek,  // Indica se a dungeon foi feita essa semana
+              keystoneLevel: run.keystone_level,  // Nível da chave para referência
+              isCompletedInTime: run.is_completed_within_time,  // Se foi completada dentro do tempo
+              duration: run.duration,  // Duração da dungeon
+              mythicRating: run.mythic_rating ? run.mythic_rating.rating : null  // Nota da Mythic Plus
             });
           }
+          if (completedThisWeek === 0) {
+            characterData.mythicDungeons.push({
+              name: 'Nenhuma dungeon completada essa semana',
+              thisWeek: 0,
+              keystoneLevel: null,
+              isCompletedInTime: null,
+              duration: null,
+              mythicRating: null
+            });
+          }
+        } else {
+          characterData.mythicDungeons = [{
+            name: 'Nenhuma dungeon completada essa semana',
+            thisWeek: 0,
+            keystoneLevel: null,
+            isCompletedInTime: null,
+            duration: null,
+            mythicRating: null
+          }];
         }
 
-        const greatVaultData = await getGreatVault(
-          accessToken,
-          characterInfo.mythic_keystone_profile.href
-        );
-        if (greatVaultData && greatVaultData.rewards) {
-          for (const reward of greatVaultData.rewards) {
-            characterData.greatVaultScore.push({
-              slot: reward.slot.type,
-              score: reward.level.display_string,
-            });
-          }
-        }
+        // const greatVaultData = await getGreatVault(
+        //   accessToken,
+        //   characterInfo.mythic_keystone_profile.href
+        // );
+
+        // if (greatVaultData && greatVaultData.rewards) {
+        //   for (const reward of greatVaultData.rewards) {
+        //     characterData.greatVaultScore.push({
+        //       slot: reward.slot.type,
+        //       score: reward.level.display_string,
+        //     });
+        //   }
+        // }
 
         result.push(characterData);
+        // console.log(characterData);
       }
     }
 
     fs.writeFileSync(dataFilePath, JSON.stringify(result, null, 2), 'utf8');
-    console.log('Dados atualizados com sucesso!');
   } catch (error) {
     console.error('Erro ao atualizar dados:', error);
   }

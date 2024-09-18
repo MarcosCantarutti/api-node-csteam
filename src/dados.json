@@ -128,9 +128,18 @@
     ],
     "sockets": [],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Vladimirovit",
@@ -304,9 +313,18 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Bandaíìd",
@@ -473,9 +491,20 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 3,
+        "isCompletedInTime": true,
+        "duration": 1271296,
+        "mythicRating": 191.01466
+      }
+    ],
+    "mythicPlusRating": [
+      191.01466
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Xiaobei",
@@ -645,9 +674,18 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Sary",
@@ -782,167 +820,60 @@
     ],
     "sockets": [],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
-  },
-  {
-    "name": "Xerkron",
-    "level": 80,
-    "race": "Orc",
-    "class": "Warrior",
-    "itemLevel": {
-      "equipped": 603,
-      "average": 603
-    },
-    "tierSet": [],
-    "allItems": [
+    "mythicDungeons": [
       {
-        "slot": "HEAD",
-        "level": "Item Level 599"
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1516610,
+        "mythicRating": 226.92319
       },
       {
-        "slot": "NECK",
-        "level": "Item Level 603"
+        "name": "The Stonevault",
+        "thisWeek": true,
+        "keystoneLevel": 8,
+        "isCompletedInTime": false,
+        "duration": 2687009,
+        "mythicRating": 251.60968
       },
       {
-        "slot": "SHOULDER",
-        "level": "Item Level 606"
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1687661,
+        "mythicRating": 210.53673
       },
       {
-        "slot": "CHEST",
-        "level": "Item Level 606"
+        "name": "City of Threads",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1258462,
+        "mythicRating": 180
       },
       {
-        "slot": "WAIST",
-        "level": "Item Level 610"
+        "name": "Grim Batol",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1498481,
+        "mythicRating": 174.95439
       },
       {
-        "slot": "LEGS",
-        "level": "Item Level 603"
-      },
-      {
-        "slot": "FEET",
-        "level": "Item Level 603"
-      },
-      {
-        "slot": "WRIST",
-        "level": "Item Level 606"
-      },
-      {
-        "slot": "HANDS",
-        "level": "Item Level 603"
-      },
-      {
-        "slot": "FINGER_1",
-        "level": "Item Level 606"
-      },
-      {
-        "slot": "FINGER_2",
-        "level": "Item Level 603"
-      },
-      {
-        "slot": "TRINKET_1",
-        "level": "Item Level 593"
-      },
-      {
-        "slot": "TRINKET_2",
-        "level": "Item Level 593"
-      },
-      {
-        "slot": "BACK",
-        "level": "Item Level 593"
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 616"
-      },
-      {
-        "slot": "OFF_HAND",
-        "level": "Item Level 593"
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1052802,
+        "mythicRating": 235
       }
     ],
-    "enchantedItems": [
-      {
-        "slot": "CHEST",
-        "level": "Item Level 606",
-        "enchanted": false
-      },
-      {
-        "slot": "LEGS",
-        "level": "Item Level 603",
-        "enchanted": false
-      },
-      {
-        "slot": "FEET",
-        "level": "Item Level 603",
-        "enchanted": false
-      },
-      {
-        "slot": "WRIST",
-        "level": "Item Level 606",
-        "enchanted": false
-      },
-      {
-        "slot": "FINGER_1",
-        "level": "Item Level 606",
-        "enchanted": false
-      },
-      {
-        "slot": "FINGER_2",
-        "level": "Item Level 603",
-        "enchanted": false
-      },
-      {
-        "slot": "BACK",
-        "level": "Item Level 593",
-        "enchanted": false
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 616",
-        "enchanted": false
-      },
-      {
-        "slot": "OFF_HAND",
-        "level": "Item Level 593",
-        "enchanted": false
-      }
+    "mythicPlusRating": [
+      1279.0239
     ],
-    "sockets": [
-      {
-        "slot": "HEAD",
-        "level": "Item Level 599",
-        "sockets": [
-          {
-            "type": {
-              "type": "TINKER",
-              "name": "Tinker Socket"
-            },
-            "gem": "Tinker: Heartseeking Health Injector"
-          }
-        ],
-        "socketed": true
-      },
-      {
-        "slot": "NECK",
-        "level": "Item Level 603",
-        "sockets": [
-          {
-            "type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            },
-            "gem": "Quick Onyx"
-          }
-        ],
-        "socketed": true
-      }
-    ],
-    "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "greatVaultScore": []
   },
   {
     "name": "Sanshain",
@@ -1093,9 +1024,44 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": false,
+        "duration": 2037979,
+        "mythicRating": 203.90192
+      },
+      {
+        "name": "City of Threads",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1258462,
+        "mythicRating": 180
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1007053,
+        "mythicRating": 180
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1104011,
+        "mythicRating": 179.49977
+      }
+    ],
+    "mythicPlusRating": [
+      743.4017
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Riiae",
@@ -1230,9 +1196,18 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Restonelson",
@@ -1388,9 +1363,44 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 3064493,
+        "mythicRating": 0
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2186393,
+        "mythicRating": 241.95015
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 6,
+        "isCompletedInTime": true,
+        "duration": 1310249,
+        "mythicRating": 245.20314
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 904073,
+        "mythicRating": 180
+      }
+    ],
+    "mythicPlusRating": [
+      487.1533
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Hopewing",
@@ -1544,9 +1554,18 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Pirizard",
@@ -1714,9 +1733,28 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 904073,
+        "mythicRating": 180
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 898451,
+        "mythicRating": 180
+      }
+    ],
+    "mythicPlusRating": [
+      360
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Soulheals",
@@ -1875,9 +1913,28 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": false,
+        "duration": 2396666,
+        "mythicRating": 139.18011
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1398391,
+        "mythicRating": 228.36685
+      }
+    ],
+    "mythicPlusRating": [
+      367.54697
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Lakanegro",
@@ -2032,9 +2089,18 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Kopsage",
@@ -2228,9 +2294,20 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1375419,
+        "mythicRating": 214.76978
+      }
+    ],
+    "mythicPlusRating": [
+      214.76978
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Zuldeads",
@@ -2376,9 +2453,28 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Stonevault",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1191746,
+        "mythicRating": 179.92905
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1141806,
+        "mythicRating": 178.71237
+      }
+    ],
+    "mythicPlusRating": [
+      358.64142
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Boiss",
@@ -2513,9 +2609,60 @@
     ],
     "sockets": [],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1516610,
+        "mythicRating": 226.92319
+      },
+      {
+        "name": "The Stonevault",
+        "thisWeek": true,
+        "keystoneLevel": 8,
+        "isCompletedInTime": false,
+        "duration": 2687009,
+        "mythicRating": 251.60968
+      },
+      {
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1687661,
+        "mythicRating": 210.53673
+      },
+      {
+        "name": "City of Threads",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1258462,
+        "mythicRating": 180
+      },
+      {
+        "name": "Grim Batol",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1498481,
+        "mythicRating": 174.95439
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1052802,
+        "mythicRating": 235
+      }
+    ],
+    "mythicPlusRating": [
+      1279.0239
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Xirubata",
@@ -2736,166 +2883,36 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
-  },
-  {
-    "name": "Thelink",
-    "level": 80,
-    "race": "Lightforged Draenei",
-    "class": "Paladin",
-    "itemLevel": {
-      "equipped": 578,
-      "average": 579
-    },
-    "tierSet": [],
-    "allItems": [
+    "mythicDungeons": [
       {
-        "slot": "HEAD",
-        "level": "Item Level 593"
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1375419,
+        "mythicRating": 214.76978
       },
       {
-        "slot": "NECK",
-        "level": "Item Level 580"
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": false,
+        "duration": 2265032,
+        "mythicRating": 184.60167
       },
       {
-        "slot": "SHOULDER",
-        "level": "Item Level 584"
-      },
-      {
-        "slot": "CHEST",
-        "level": "Item Level 584"
-      },
-      {
-        "slot": "WAIST",
-        "level": "Item Level 571"
-      },
-      {
-        "slot": "LEGS",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "FEET",
-        "level": "Item Level 577"
-      },
-      {
-        "slot": "WRIST",
-        "level": "Item Level 554"
-      },
-      {
-        "slot": "HANDS",
-        "level": "Item Level 561"
-      },
-      {
-        "slot": "FINGER_1",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "FINGER_2",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "TRINKET_1",
-        "level": "Item Level 593"
-      },
-      {
-        "slot": "TRINKET_2",
-        "level": "Item Level 593"
-      },
-      {
-        "slot": "BACK",
-        "level": "Item Level 574"
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 577"
-      },
-      {
-        "slot": "OFF_HAND",
-        "level": "Item Level 571"
-      },
-      {
-        "slot": "TABARD",
-        "level": "Item Level 1"
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2186393,
+        "mythicRating": 241.95015
       }
     ],
-    "enchantedItems": [
-      {
-        "slot": "CHEST",
-        "level": "Item Level 584",
-        "enchanted": false
-      },
-      {
-        "slot": "LEGS",
-        "level": "Item Level 580",
-        "enchanted": false
-      },
-      {
-        "slot": "FEET",
-        "level": "Item Level 577",
-        "enchanted": false
-      },
-      {
-        "slot": "WRIST",
-        "level": "Item Level 554",
-        "enchanted": false
-      },
-      {
-        "slot": "FINGER_1",
-        "level": "Item Level 580",
-        "enchanted": false
-      },
-      {
-        "slot": "FINGER_2",
-        "level": "Item Level 580",
-        "enchanted": false
-      },
-      {
-        "slot": "BACK",
-        "level": "Item Level 574",
-        "enchanted": false
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 577",
-        "enchanted": true
-      }
+    "mythicPlusRating": [
+      641.3216
     ],
-    "sockets": [
-      {
-        "slot": "NECK",
-        "level": "Item Level 580",
-        "sockets": [
-          {
-            "type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            },
-            "gem": null
-          }
-        ],
-        "socketed": false
-      },
-      {
-        "slot": "WAIST",
-        "level": "Item Level 571",
-        "sockets": [
-          {
-            "type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            },
-            "gem": null
-          }
-        ],
-        "socketed": false
-      }
-    ],
-    "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "greatVaultScore": []
   },
   {
     "name": "Emerich",
@@ -3034,9 +3051,18 @@
     ],
     "sockets": [],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Ryusow",
@@ -3192,9 +3218,20 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1206973,
+        "mythicRating": 178.16586
+      }
+    ],
+    "mythicPlusRating": [
+      178.16586
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Maxlocke",
@@ -3404,9 +3441,44 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1375419,
+        "mythicRating": 214.76978
+      },
+      {
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": false,
+        "duration": 2265032,
+        "mythicRating": 184.60167
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": false,
+        "duration": 2076086,
+        "mythicRating": 199.2482
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1473007,
+        "mythicRating": 211.81236
+      }
+    ],
+    "mythicPlusRating": [
+      810.432
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Mìúdex",
@@ -3524,9 +3596,18 @@
     ],
     "sockets": [],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
+      }
+    ],
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Littlethunde",
@@ -3682,9 +3763,44 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1361424,
+        "mythicRating": 230.05194
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2186393,
+        "mythicRating": 241.95015
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1004730,
+        "mythicRating": 180
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 980794,
+        "mythicRating": 180
+      }
+    ],
+    "mythicPlusRating": [
+      652.0021
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Holamaster",
@@ -3870,9 +3986,36 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1361424,
+        "mythicRating": 230.05194
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2186393,
+        "mythicRating": 241.95015
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1004730,
+        "mythicRating": 180
+      }
+    ],
+    "mythicPlusRating": [
+      472.00208
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Jecahdk",
@@ -4033,9 +4176,20 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2186393,
+        "mythicRating": 241.95015
+      }
+    ],
+    "mythicPlusRating": [
+      241.95015
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Fuueguitoo",
@@ -4203,9 +4357,52 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 3,
+        "isCompletedInTime": true,
+        "duration": 1290964,
+        "mythicRating": 191.4725
+      },
+      {
+        "name": "The Stonevault",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": false,
+        "duration": 2198386,
+        "mythicRating": 185.86389
+      },
+      {
+        "name": "Siege of Boralus",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1321866,
+        "mythicRating": 177.46466
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 904073,
+        "mythicRating": 180
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 4,
+        "isCompletedInTime": true,
+        "duration": 1241145,
+        "mythicRating": 216.6428
+      }
+    ],
+    "mythicPlusRating": [
+      951.4439
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Ikki",
@@ -4387,9 +4584,60 @@
         ]
       }
     ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Necrotic Wake",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1516610,
+        "mythicRating": 226.92319
+      },
+      {
+        "name": "The Stonevault",
+        "thisWeek": true,
+        "keystoneLevel": 8,
+        "isCompletedInTime": false,
+        "duration": 2687009,
+        "mythicRating": 251.60968
+      },
+      {
+        "name": "The Dawnbreaker",
+        "thisWeek": true,
+        "keystoneLevel": 3,
+        "isCompletedInTime": true,
+        "duration": 1370864,
+        "mythicRating": 189.86162
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2411891,
+        "mythicRating": 237.25227
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 7,
+        "isCompletedInTime": false,
+        "duration": 2803844,
+        "mythicRating": 0
+      },
+      {
+        "name": "Mists of Tirna Scithe",
+        "thisWeek": true,
+        "keystoneLevel": 5,
+        "isCompletedInTime": true,
+        "duration": 1052802,
+        "mythicRating": 235
+      }
+    ],
+    "mythicPlusRating": [
+      1140.6467
+    ],
+    "greatVaultScore": []
   },
   {
     "name": "Xicara",
@@ -4535,144 +4783,18 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
-  },
-  {
-    "name": "Ikki",
-    "level": 80,
-    "race": "Void Elf",
-    "class": "Priest",
-    "itemLevel": {
-      "equipped": 584,
-      "average": 584
-    },
-    "tierSet": [],
-    "allItems": [
+    "mythicDungeons": [
       {
-        "slot": "HEAD",
-        "level": "Item Level 586"
-      },
-      {
-        "slot": "NECK",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "SHOULDER",
-        "level": "Item Level 590"
-      },
-      {
-        "slot": "CHEST",
-        "level": "Item Level 590"
-      },
-      {
-        "slot": "WAIST",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "LEGS",
-        "level": "Item Level 586"
-      },
-      {
-        "slot": "FEET",
-        "level": "Item Level 590"
-      },
-      {
-        "slot": "WRIST",
-        "level": "Item Level 590"
-      },
-      {
-        "slot": "HANDS",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "FINGER_1",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "FINGER_2",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "TRINKET_1",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "TRINKET_2",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "BACK",
-        "level": "Item Level 580"
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 590"
+        "name": "Nenhuma dungeon completada essa semana",
+        "thisWeek": 0,
+        "keystoneLevel": null,
+        "isCompletedInTime": null,
+        "duration": null,
+        "mythicRating": null
       }
     ],
-    "enchantedItems": [
-      {
-        "slot": "CHEST",
-        "level": "Item Level 590",
-        "enchanted": false
-      },
-      {
-        "slot": "LEGS",
-        "level": "Item Level 586",
-        "enchanted": false
-      },
-      {
-        "slot": "FEET",
-        "level": "Item Level 590",
-        "enchanted": false
-      },
-      {
-        "slot": "WRIST",
-        "level": "Item Level 590",
-        "enchanted": false
-      },
-      {
-        "slot": "FINGER_1",
-        "level": "Item Level 580",
-        "enchanted": false
-      },
-      {
-        "slot": "FINGER_2",
-        "level": "Item Level 580",
-        "enchanted": false
-      },
-      {
-        "slot": "BACK",
-        "level": "Item Level 580",
-        "enchanted": false
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 590",
-        "enchanted": false
-      }
-    ],
-    "sockets": [],
-    "embellishedItems": [
-      {
-        "slot": "FEET",
-        "level": "Item Level 590",
-        "spells": [
-          "Equip: Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative."
-        ]
-      },
-      {
-        "slot": "MAIN_HAND",
-        "level": "Item Level 590",
-        "spells": [
-          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
-        ]
-      }
-    ],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicPlusRating": [],
+    "greatVaultScore": []
   },
   {
     "name": "Miúdex",
@@ -4839,8 +4961,35 @@
       }
     ],
     "embellishedItems": [],
-    "mythicDungeons": [],
-    "greatVaultScore": [],
-    "mythicPlusRating": []
+    "mythicDungeons": [
+      {
+        "name": "The Stonevault",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1233716,
+        "mythicRating": 179.13417
+      },
+      {
+        "name": "The Dawnbreaker",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 1400176,
+        "mythicRating": 174.27065
+      },
+      {
+        "name": "Ara-Kara, City of Echoes",
+        "thisWeek": true,
+        "keystoneLevel": 2,
+        "isCompletedInTime": true,
+        "duration": 904073,
+        "mythicRating": 180
+      }
+    ],
+    "mythicPlusRating": [
+      533.4048
+    ],
+    "greatVaultScore": []
   }
 ]
