@@ -93,25 +93,6 @@ async function getGuildRoster(realm, guildName, accessToken) {
   }
 }
 
-// Função para obter a data do último reset semanal (terça-feira às 12h)
-function getLastWeeklyReset() {
-
-  const now = new Date();
-  const currentDay = now.getUTCDay(); 
-  const currentHour = now.getUTCHours(); 
-
-  let daysSinceTuesday = (currentDay + 7 - 2) % 7; 
-  let lastReset = new Date(now);
-
-  lastReset.setUTCDate(now.getUTCDate() - daysSinceTuesday);
-  lastReset.setUTCHours(12, 0, 0, 0); 
-
-  if (currentDay === 2 && currentHour < 12) {
-    lastReset.setUTCDate(lastReset.getUTCDate() - 7);
-  }
-  return lastReset.getTime();
-}
-
 async function getCharacterMythicPlus(accessToken, url) {
   try {
     const response = await axios.get(
@@ -125,6 +106,20 @@ async function getCharacterMythicPlus(accessToken, url) {
     );
   }
 }
+
+async function getRaiderIoData(region, realm, name, fields){
+  try {
+    const response = await fetch(`https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${name}&fields=${fields}`);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    
+    return await response.json();
+  } catch (error) {
+    console.error('Erro ao buscar dados do Raider.IO:', error);
+  }
+};
 
 async function getGreatVault(accessToken, url) {
   try {
@@ -240,6 +235,7 @@ async function refreshData() {
           accessToken,
           member.character.key.href
         );
+        const realm = characterInfo.realm.slug;
 
         let characterData = {
           name: characterInfo.name,
@@ -256,6 +252,7 @@ async function refreshData() {
           sockets: [],
           embellishedItems: [],
           mythicDungeons: [],
+          raidProgress: [],
           mythicPlusRating: [],
           greatVaultScore: [],
         };
@@ -347,38 +344,25 @@ async function refreshData() {
           accessToken,
           characterInfo.mythic_keystone_profile.href
         );
-        
-        if (mythicPlusData && mythicPlusData.current_period && mythicPlusData.current_period.best_runs) {
 
+        // console.log(mythicPlusData.current_period)
+        
+        if (mythicPlusData.current_mythic_rating) {
           characterData.mythicPlusRating.push(mythicPlusData.current_mythic_rating.rating);
-
-          const lastResetTimestamp = getLastWeeklyReset(); // Obter o timestamp do último reset semanal
-          const bestRuns = mythicPlusData.current_period.best_runs;
-        
-          let completedThisWeek = 0;
-          characterData.mythicDungeons = [];
-        
-          // Itera sobre as dungeons feitas
-          for (const run of bestRuns) {
-            // Verifica se a dungeon foi completada após o reset semanal
-            const isThisWeek = run.completed_timestamp >= lastResetTimestamp;
-        
-            if (isThisWeek) {
-              completedThisWeek++;
-            }
-        
-            // Adiciona os dados da dungeon ao array characterData.mythicDungeons
-            characterData.mythicDungeons.push({
-              name: run.dungeon.name,
-              thisWeek: isThisWeek,  // Indica se a dungeon foi feita essa semana
-              keystoneLevel: run.keystone_level,  // Nível da chave para referência
-              isCompletedInTime: run.is_completed_within_time,  // Se foi completada dentro do tempo
-              duration: run.duration,  // Duração da dungeon
-              mythicRating: run.mythic_rating ? run.mythic_rating.rating : null  // Nota da Mythic Plus
-            });
-          }
-      
         }
+
+        const getRaiderIoMplusData = await getRaiderIoData('us', realm, characterName, 'mythic_plus_weekly_highest_level_runs');
+
+        if (getRaiderIoMplusData && getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs) {
+          characterData.mythicDungeons = getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs;
+        }
+
+        const getRaiderIoRaidData = await getRaiderIoData('us', realm, characterName, 'raid_progression');
+
+        if (getRaiderIoRaidData && getRaiderIoRaidData.raid_progression) {
+          characterData.raidProgress = getRaiderIoRaidData.raid_progression;
+        }
+        
         
         // const greatVaultData = await getGreatVault(
         //   accessToken,
