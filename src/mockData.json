@@ -102,9 +102,5 @@
   {
     "name": "Xicara",
     "href": "https://us.api.blizzard.com/profile/wow/character/stormrage/xicara?namespace=profile-us"
-  },
-  {
-    "name": "Miúdex",
-    "href": "https://us.api.blizzard.com/profile/wow/character/azralon/mi%C3%BAdex?namespace=profile-us"
   }
 ]
