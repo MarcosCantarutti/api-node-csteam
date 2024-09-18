@@ -20,10 +20,6 @@
     "href": "https://us.api.blizzard.com/profile/wow/character/azralon/sary?namespace=profile-us"
   },
   {
-    "name": "Xerkron",
-    "href": "https://us.api.blizzard.com/profile/wow/character/azralon/xerkron?namespace=profile-us"
-  },
-  {
     "name": "Sanshain",
     "href": "https://us.api.blizzard.com/profile/wow/character/azralon/sanshain?namespace=profile-us"
   },
@@ -68,10 +64,6 @@
     "href": "https://us.api.blizzard.com/profile/wow/character/azralon/xirubata?namespace=profile-us"
   },
   {
-    "name": "Thelink",
-    "href": "https://us.api.blizzard.com/profile/wow/character/azralon/thelink?namespace=profile-us"
-  },
-  {
     "name": "Emerich",
     "href": "https://us.api.blizzard.com/profile/wow/character/azralon/emerich?namespace=profile-us"
   },
@@ -110,10 +102,6 @@
   {
     "name": "Xicara",
     "href": "https://us.api.blizzard.com/profile/wow/character/stormrage/xicara?namespace=profile-us"
-  },
-  {
-    "name": "Ikki",
-    "href": "https://us.api.blizzard.com/profile/wow/character/moonrunner/ikki?namespace=profile-us"
   },
   {
     "name": "Miúdex",
