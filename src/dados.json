@@ -128,17 +128,42 @@
     ],
     "sockets": [],
     "embellishedItems": [],
-    "mythicDungeons": [],
+    "mythicDungeons": [
+      {
+        "dungeon": "The Stonevault",
+        "short_name": "SV",
+        "mythic_level": 2,
+        "completed_at": "2024-09-18T22:36:06.000Z",
+        "clear_time_ms": 1755680,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 501,
+        "zone_id": 14883,
+        "score": 169.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/460924-2-the-stonevault"
+      }
+    ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
-    "mythicPlusRating": [],
+    "mythicPlusRating": [
+      169.24849
+    ],
     "greatVaultScore": []
   },
   {
@@ -157,7 +182,7 @@
       },
       {
         "slot": "SHOULDER",
-        "level": "Item Level 613"
+        "level": "Item Level 616"
       },
       {
         "slot": "CHEST",
@@ -179,7 +204,7 @@
       },
       {
         "slot": "SHOULDER",
-        "level": "Item Level 613"
+        "level": "Item Level 616"
       },
       {
         "slot": "SHIRT",
@@ -339,10 +364,10 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
@@ -357,10 +382,19 @@
     "race": "Blood Elf",
     "class": "Paladin",
     "itemLevel": {
-      "equipped": 598,
-      "average": 601
+      "equipped": 601,
+      "average": 603
     },
-    "tierSet": [],
+    "tierSet": [
+      {
+        "slot": "SHOULDER",
+        "level": "Item Level 619"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 619"
+      }
+    ],
     "allItems": [
       {
         "slot": "HEAD",
@@ -372,7 +406,7 @@
       },
       {
         "slot": "SHOULDER",
-        "level": "Item Level 600"
+        "level": "Item Level 619"
       },
       {
         "slot": "SHIRT",
@@ -380,7 +414,7 @@
       },
       {
         "slot": "CHEST",
-        "level": "Item Level 593"
+        "level": "Item Level 619"
       },
       {
         "slot": "WAIST",
@@ -438,7 +472,7 @@
     "enchantedItems": [
       {
         "slot": "CHEST",
-        "level": "Item Level 593",
+        "level": "Item Level 619",
         "enchanted": true
       },
       {
@@ -454,7 +488,7 @@
       {
         "slot": "WRIST",
         "level": "Item Level 600",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "FINGER_1",
@@ -538,19 +572,41 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/92227-3-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 2,
+        "completed_at": "2024-09-18T21:34:38.000Z",
+        "clear_time_ms": 1425984,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 173.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/426861-2-the-necrotic-wake"
       }
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      191.01466
+      364.76498
     ],
     "greatVaultScore": []
   },
@@ -560,8 +616,8 @@
     "race": "Blood Elf",
     "class": "Monk",
     "itemLevel": {
-      "equipped": 598,
-      "average": 600
+      "equipped": 599,
+      "average": 602
     },
     "tierSet": [
       {
@@ -570,7 +626,7 @@
       },
       {
         "slot": "LEGS",
-        "level": "Item Level 603"
+        "level": "Item Level 616"
       }
     ],
     "allItems": [
@@ -596,7 +652,7 @@
       },
       {
         "slot": "LEGS",
-        "level": "Item Level 603"
+        "level": "Item Level 616"
       },
       {
         "slot": "FEET",
@@ -643,8 +699,8 @@
       },
       {
         "slot": "LEGS",
-        "level": "Item Level 603",
-        "enchanted": true
+        "level": "Item Level 616",
+        "enchanted": false
       },
       {
         "slot": "FEET",
@@ -725,10 +781,10 @@
     "mythicDungeons": [],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "3/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 3,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
@@ -741,8 +797,8 @@
     "race": "Blood Elf",
     "class": "Paladin",
     "itemLevel": {
-      "equipped": 605,
-      "average": 605
+      "equipped": 606,
+      "average": 606
     },
     "tierSet": [
       {
@@ -781,11 +837,11 @@
       },
       {
         "slot": "LEGS",
-        "level": "Item Level 597"
+        "level": "Item Level 603"
       },
       {
         "slot": "FEET",
-        "level": "Item Level 577"
+        "level": "Item Level 584"
       },
       {
         "slot": "WRIST",
@@ -832,12 +888,12 @@
       },
       {
         "slot": "LEGS",
-        "level": "Item Level 597",
+        "level": "Item Level 603",
         "enchanted": true
       },
       {
         "slot": "FEET",
-        "level": "Item Level 577",
+        "level": "Item Level 584",
         "enchanted": true
       },
       {
@@ -904,6 +960,107 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/89914-8-the-stonevault"
+      },
+      {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 8,
+        "completed_at": "2024-09-18T19:03:04.000Z",
+        "clear_time_ms": 3521684,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336503-8-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T17:32:42.000Z",
+        "clear_time_ms": 2636526,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336475-7-the-necrotic-wake"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T18:01:38.000Z",
+        "clear_time_ms": 1354263,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 244.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336544-6-mists-of-tirna-scithe"
       },
       {
         "dungeon": "Mists of Tirna Scithe",
@@ -1061,15 +1218,15 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      1279.0239
+      1288.3102
     ],
     "greatVaultScore": []
   },
@@ -1131,7 +1288,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 593"
+        "level": "Item Level 597"
       },
       {
         "slot": "FINGER_2",
@@ -1181,8 +1338,8 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 593",
-        "enchanted": true
+        "level": "Item Level 597",
+        "enchanted": false
       },
       {
         "slot": "FINGER_2",
@@ -1253,6 +1410,35 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/34566-5-siege-of-boralus"
       },
       {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 4,
+        "completed_at": "2024-09-18T18:47:09.000Z",
+        "clear_time_ms": 1310741,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 216.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/293527-4-the-necrotic-wake"
+      },
+      {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
         "mythic_level": 2,
@@ -1317,19 +1503,41 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/30722-2-city-of-threads"
+      },
+      {
+        "dungeon": "Grim Batol",
+        "short_name": "GB",
+        "mythic_level": 2,
+        "completed_at": "2024-09-19T13:25:44.000Z",
+        "clear_time_ms": 1416681,
+        "par_time_ms": 2040999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 507,
+        "zone_id": 4950,
+        "score": 176.5,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/593231-2-grim-batol"
       }
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      743.4017
+      1135.9336
     ],
     "greatVaultScore": []
   },
@@ -1485,13 +1693,17 @@
     "race": "Dwarf",
     "class": "Shaman",
     "itemLevel": {
-      "equipped": 607,
-      "average": 607
+      "equipped": 609,
+      "average": 609
     },
     "tierSet": [
       {
         "slot": "SHOULDER",
         "level": "Item Level 613"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 610"
       }
     ],
     "allItems": [
@@ -1509,7 +1721,7 @@
       },
       {
         "slot": "CHEST",
-        "level": "Item Level 603"
+        "level": "Item Level 610"
       },
       {
         "slot": "WAIST",
@@ -1533,15 +1745,15 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 590"
+        "level": "Item Level 606"
       },
       {
         "slot": "FINGER_2",
-        "level": "Item Level 603"
+        "level": "Item Level 606"
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 610"
+        "level": "Item Level 619"
       },
       {
         "slot": "TRINKET_2",
@@ -1549,7 +1761,7 @@
       },
       {
         "slot": "BACK",
-        "level": "Item Level 613"
+        "level": "Item Level 616"
       },
       {
         "slot": "MAIN_HAND",
@@ -1563,7 +1775,7 @@
     "enchantedItems": [
       {
         "slot": "CHEST",
-        "level": "Item Level 603",
+        "level": "Item Level 610",
         "enchanted": true
       },
       {
@@ -1583,17 +1795,17 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 590",
+        "level": "Item Level 606",
         "enchanted": true
       },
       {
         "slot": "FINGER_2",
-        "level": "Item Level 603",
+        "level": "Item Level 606",
         "enchanted": true
       },
       {
         "slot": "BACK",
-        "level": "Item Level 613",
+        "level": "Item Level 616",
         "enchanted": true
       },
       {
@@ -1619,14 +1831,14 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 590",
+        "level": "Item Level 606",
         "sockets": [
           {
             "type": {
               "type": "PRISMATIC",
               "name": "Prismatic Socket"
             },
-            "gem": "Versatile Emerald"
+            "gem": "Culminating Blasphemite"
           }
         ],
         "socketed": true
@@ -1715,6 +1927,42 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/44866-7-siege-of-boralus"
       },
       {
+        "dungeon": "The Stonevault",
+        "short_name": "SV",
+        "mythic_level": 7,
+        "completed_at": "2024-09-19T03:42:02.000Z",
+        "clear_time_ms": 3361919,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 501,
+        "zone_id": 14883,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/508135-7-the-stonevault"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 6,
@@ -1744,6 +1992,64 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/44871-6-mists-of-tirna-scithe"
       },
       {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 5,
+        "completed_at": "2024-09-19T02:41:03.000Z",
+        "clear_time_ms": 1235731,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 231.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/508137-5-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 5,
+        "completed_at": "2024-09-18T22:32:31.000Z",
+        "clear_time_ms": 1248762,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 232.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/410998-5-the-dawnbreaker"
+      },
+      {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
         "mythic_level": 2,
@@ -1768,15 +2074,15 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      487.1533
+      719.4766
     ],
     "greatVaultScore": []
   },
@@ -1786,8 +2092,8 @@
     "race": "Dracthyr",
     "class": "Evoker",
     "itemLevel": {
-      "equipped": 603,
-      "average": 604
+      "equipped": 605,
+      "average": 605
     },
     "tierSet": [
       {
@@ -1826,7 +2132,7 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606"
+        "level": "Item Level 613"
       },
       {
         "slot": "WRIST",
@@ -1850,7 +2156,7 @@
       },
       {
         "slot": "TRINKET_2",
-        "level": "Item Level 603"
+        "level": "Item Level 616"
       },
       {
         "slot": "BACK",
@@ -1878,8 +2184,8 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606",
-        "enchanted": true
+        "level": "Item Level 613",
+        "enchanted": false
       },
       {
         "slot": "WRIST",
@@ -1935,10 +2241,10 @@
     "mythicDungeons": [],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
@@ -1951,8 +2257,8 @@
     "race": "Dracthyr",
     "class": "Evoker",
     "itemLevel": {
-      "equipped": 606,
-      "average": 606
+      "equipped": 609,
+      "average": 609
     },
     "tierSet": [
       {
@@ -1961,7 +2267,7 @@
       },
       {
         "slot": "HANDS",
-        "level": "Item Level 610"
+        "level": "Item Level 619"
       }
     ],
     "allItems": [
@@ -1971,7 +2277,7 @@
       },
       {
         "slot": "NECK",
-        "level": "Item Level 590"
+        "level": "Item Level 603"
       },
       {
         "slot": "SHOULDER",
@@ -1987,7 +2293,7 @@
       },
       {
         "slot": "WAIST",
-        "level": "Item Level 606"
+        "level": "Item Level 619"
       },
       {
         "slot": "LEGS",
@@ -2003,7 +2309,7 @@
       },
       {
         "slot": "HANDS",
-        "level": "Item Level 610"
+        "level": "Item Level 619"
       },
       {
         "slot": "FINGER_1",
@@ -2031,7 +2337,7 @@
       },
       {
         "slot": "OFF_HAND",
-        "level": "Item Level 616"
+        "level": "Item Level 619"
       },
       {
         "slot": "TABARD",
@@ -2094,24 +2400,76 @@
           }
         ],
         "socketed": true
-      },
-      {
-        "slot": "NECK",
-        "level": "Item Level 590",
-        "sockets": [
-          {
-            "type": {
-              "type": "PRISMATIC",
-              "name": "Prismatic Socket"
-            },
-            "gem": "Deadly Amber"
-          }
-        ],
-        "socketed": true
       }
     ],
-    "embellishedItems": [],
+    "embellishedItems": [
+      {
+        "slot": "WAIST",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      }
+    ],
     "mythicDungeons": [
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 4,
+        "completed_at": "2024-09-19T04:52:15.000Z",
+        "clear_time_ms": 1225126,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 217.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/508543-4-the-dawnbreaker"
+      },
+      {
+        "dungeon": "Siege of Boralus",
+        "short_name": "SIEGE",
+        "mythic_level": 4,
+        "completed_at": "2024-09-19T04:22:44.000Z",
+        "clear_time_ms": 1666253,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 353,
+        "zone_id": 9354,
+        "score": 211,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/520859-4-siege-of-boralus"
+      },
       {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
@@ -2155,19 +2513,41 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/107462-2-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 2,
+        "completed_at": "2024-09-19T02:39:51.000Z",
+        "clear_time_ms": 1023513,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 180,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/501147-2-arakara-city-of-echoes"
       }
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      360
+      788.74207
     ],
     "greatVaultScore": []
   },
@@ -2177,8 +2557,8 @@
     "race": "Nightborne",
     "class": "Priest",
     "itemLevel": {
-      "equipped": 604,
-      "average": 604
+      "equipped": 606,
+      "average": 606
     },
     "tierSet": [
       {
@@ -2193,7 +2573,7 @@
     "allItems": [
       {
         "slot": "HEAD",
-        "level": "Item Level 593"
+        "level": "Item Level 600"
       },
       {
         "slot": "NECK",
@@ -2249,11 +2629,7 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 590"
-      },
-      {
-        "slot": "OFF_HAND",
-        "level": "Item Level 603"
+        "level": "Item Level 610"
       },
       {
         "slot": "TABARD",
@@ -2264,12 +2640,12 @@
       {
         "slot": "CHEST",
         "level": "Item Level 619",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "LEGS",
         "level": "Item Level 606",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "FEET",
@@ -2279,7 +2655,7 @@
       {
         "slot": "WRIST",
         "level": "Item Level 610",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "FINGER_1",
@@ -2298,7 +2674,7 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 590",
+        "level": "Item Level 610",
         "enchanted": true
       }
     ],
@@ -2359,6 +2735,57 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/121667-5-mists-of-tirna-scithe"
       },
       {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 4,
+        "completed_at": "2024-09-19T03:34:38.000Z",
+        "clear_time_ms": 1139822,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 218.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/487189-4-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 3,
+        "completed_at": "2024-09-18T22:40:13.000Z",
+        "clear_time_ms": 1458604,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 188.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/396265-3-the-necrotic-wake"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 2,
@@ -2379,6 +2806,28 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/83355-2-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "City of Threads",
+        "short_name": "COT",
+        "mythic_level": 2,
+        "completed_at": "2024-09-19T03:03:53.000Z",
+        "clear_time_ms": 1612253,
+        "par_time_ms": 2100999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 502,
+        "zone_id": 14979,
+        "score": 173.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/482094-2-city-of-threads"
       },
       {
         "dungeon": "The Necrotic Wake",
@@ -2405,15 +2854,15 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      367.54697
+      808.923
     ],
     "greatVaultScore": []
   },
@@ -2423,8 +2872,8 @@
     "race": "Night Elf",
     "class": "Rogue",
     "itemLevel": {
-      "equipped": 608,
-      "average": 608
+      "equipped": 609,
+      "average": 609
     },
     "tierSet": [
       {
@@ -2483,7 +2932,7 @@
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 603"
+        "level": "Item Level 616"
       },
       {
         "slot": "TRINKET_2",
@@ -2573,10 +3022,10 @@
     "mythicDungeons": [],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
@@ -2589,7 +3038,7 @@
     "race": "Dwarf",
     "class": "Mage",
     "itemLevel": {
-      "equipped": 610,
+      "equipped": 611,
       "average": 611
     },
     "tierSet": [
@@ -2617,7 +3066,7 @@
       },
       {
         "slot": "SHOULDER",
-        "level": "Item Level 606"
+        "level": "Item Level 610"
       },
       {
         "slot": "SHIRT",
@@ -2657,7 +3106,7 @@
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 593"
+        "level": "Item Level 616"
       },
       {
         "slot": "TRINKET_2",
@@ -2777,6 +3226,194 @@
     ],
     "mythicDungeons": [
       {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 8,
+        "completed_at": "2024-09-18T19:03:04.000Z",
+        "clear_time_ms": 3521684,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336503-8-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T17:32:42.000Z",
+        "clear_time_ms": 2636526,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336475-7-the-necrotic-wake"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T18:01:38.000Z",
+        "clear_time_ms": 1354263,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 244.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336544-6-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T20:35:42.000Z",
+        "clear_time_ms": 1396007,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 244.4,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/406630-6-the-dawnbreaker"
+      },
+      {
+        "dungeon": "City of Threads",
+        "short_name": "COT",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T21:48:48.000Z",
+        "clear_time_ms": 1897007,
+        "par_time_ms": 2100999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 502,
+        "zone_id": 14979,
+        "score": 238.6,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/406648-6-city-of-threads"
+      },
+      {
+        "dungeon": "Siege of Boralus",
+        "short_name": "SIEGE",
+        "mythic_level": 5,
+        "completed_at": "2024-09-18T16:04:58.000Z",
+        "clear_time_ms": 1746919,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 353,
+        "zone_id": 9354,
+        "score": 224.4,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/287420-5-siege-of-boralus"
+      },
+      {
         "dungeon": "Grim Batol",
         "short_name": "GB",
         "mythic_level": 5,
@@ -2889,7 +3526,7 @@
       }
     },
     "mythicPlusRating": [
-      214.76978
+      1389.8469
     ],
     "greatVaultScore": []
   },
@@ -2899,13 +3536,17 @@
     "race": "Human",
     "class": "Death Knight",
     "itemLevel": {
-      "equipped": 605,
-      "average": 606
+      "equipped": 607,
+      "average": 608
     },
     "tierSet": [
       {
         "slot": "SHOULDER",
         "level": "Item Level 606"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 616"
       },
       {
         "slot": "LEGS",
@@ -2927,7 +3568,7 @@
       },
       {
         "slot": "CHEST",
-        "level": "Item Level 606"
+        "level": "Item Level 616"
       },
       {
         "slot": "WAIST",
@@ -2959,7 +3600,7 @@
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 593"
+        "level": "Item Level 616"
       },
       {
         "slot": "TRINKET_2",
@@ -2981,7 +3622,7 @@
     "enchantedItems": [
       {
         "slot": "CHEST",
-        "level": "Item Level 606",
+        "level": "Item Level 616",
         "enchanted": true
       },
       {
@@ -3039,6 +3680,64 @@
     "embellishedItems": [],
     "mythicDungeons": [
       {
+        "dungeon": "City of Threads",
+        "short_name": "COT",
+        "mythic_level": 4,
+        "completed_at": "2024-09-18T20:17:37.000Z",
+        "clear_time_ms": 1478836,
+        "par_time_ms": 2100999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 502,
+        "zone_id": 14979,
+        "score": 216.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/399784-4-city-of-threads"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 4,
+        "completed_at": "2024-09-18T19:38:06.000Z",
+        "clear_time_ms": 1869220,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 189.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/399972-4-the-necrotic-wake"
+      },
+      {
         "dungeon": "Siege of Boralus",
         "short_name": "SIEGE",
         "mythic_level": 4,
@@ -3066,6 +3765,57 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/275709-4-siege-of-boralus"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 4,
+        "completed_at": "2024-09-18T17:57:10.000Z",
+        "clear_time_ms": 1978256,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 186.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/353429-4-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 3,
+        "completed_at": "2024-09-18T21:20:58.000Z",
+        "clear_time_ms": 1479421,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 187.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/399976-3-the-dawnbreaker"
       },
       {
         "dungeon": "Ara-Kara, City of Echoes",
@@ -3114,15 +3864,15 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      751.68774
+      1345.267
     ],
     "greatVaultScore": []
   },
@@ -3132,8 +3882,8 @@
     "race": "Tauren",
     "class": "Druid",
     "itemLevel": {
-      "equipped": 607,
-      "average": 607
+      "equipped": 608,
+      "average": 608
     },
     "tierSet": [
       {
@@ -3156,7 +3906,7 @@
       },
       {
         "slot": "NECK",
-        "level": "Item Level 603"
+        "level": "Item Level 610"
       },
       {
         "slot": "SHOULDER",
@@ -3180,7 +3930,7 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 603"
+        "level": "Item Level 619"
       },
       {
         "slot": "WRIST",
@@ -3192,7 +3942,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 613"
+        "level": "Item Level 606"
       },
       {
         "slot": "FINGER_2",
@@ -3204,11 +3954,11 @@
       },
       {
         "slot": "TRINKET_2",
-        "level": "Item Level 610"
+        "level": "Item Level 606"
       },
       {
         "slot": "BACK",
-        "level": "Item Level 606"
+        "level": "Item Level 610"
       },
       {
         "slot": "MAIN_HAND",
@@ -3228,28 +3978,28 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 603",
+        "level": "Item Level 619",
         "enchanted": false
       },
       {
         "slot": "WRIST",
         "level": "Item Level 606",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 613",
-        "enchanted": false
+        "level": "Item Level 606",
+        "enchanted": true
       },
       {
         "slot": "FINGER_2",
         "level": "Item Level 613",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "BACK",
-        "level": "Item Level 606",
-        "enchanted": true
+        "level": "Item Level 610",
+        "enchanted": false
       },
       {
         "slot": "MAIN_HAND",
@@ -3295,6 +4045,107 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/89914-8-the-stonevault"
+      },
+      {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 8,
+        "completed_at": "2024-09-18T19:03:04.000Z",
+        "clear_time_ms": 3521684,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336503-8-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T17:32:42.000Z",
+        "clear_time_ms": 2636526,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336475-7-the-necrotic-wake"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T18:01:38.000Z",
+        "clear_time_ms": 1354263,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 244.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336544-6-mists-of-tirna-scithe"
       },
       {
         "dungeon": "Mists of Tirna Scithe",
@@ -3355,6 +4206,64 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/179385-5-the-necrotic-wake"
       },
       {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 5,
+        "completed_at": "2024-09-18T21:12:33.000Z",
+        "clear_time_ms": 1517250,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 226.9,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/398202-5-the-dawnbreaker"
+      },
+      {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 4,
+        "completed_at": "2024-09-18T20:01:47.000Z",
+        "clear_time_ms": 1071569,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 3,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 220,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/343382-4-arakara-city-of-echoes"
+      },
+      {
         "dungeon": "Siege of Boralus",
         "short_name": "SIEGE",
         "mythic_level": 4,
@@ -3404,63 +4313,19 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/38394-2-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "City of Threads",
-        "short_name": "COT",
-        "mythic_level": 2,
-        "completed_at": "2024-09-17T21:52:21.000Z",
-        "clear_time_ms": 1258462,
-        "par_time_ms": 2100999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 502,
-        "zone_id": 14979,
-        "score": 180,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/30722-2-city-of-threads"
-      },
-      {
-        "dungeon": "Grim Batol",
-        "short_name": "GB",
-        "mythic_level": 2,
-        "completed_at": "2024-09-17T20:57:09.000Z",
-        "clear_time_ms": 1498481,
-        "par_time_ms": 2040999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 507,
-        "zone_id": 4950,
-        "score": 175,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/26726-2-grim-batol"
       }
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      1279.0239
+      1735.2205
     ],
     "greatVaultScore": []
   },
@@ -3685,6 +4550,150 @@
     ],
     "mythicDungeons": [
       {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 8,
+        "completed_at": "2024-09-19T04:18:36.000Z",
+        "clear_time_ms": 1430203,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 287.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/494933-8-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 8,
+        "completed_at": "2024-09-19T13:26:52.000Z",
+        "clear_time_ms": 1433533,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 287.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/593488-8-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T21:48:27.000Z",
+        "clear_time_ms": 1190980,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 277.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/374515-7-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 7,
+        "completed_at": "2024-09-19T03:21:43.000Z",
+        "clear_time_ms": 1309329,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 276.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/484810-7-the-dawnbreaker"
+      },
+      {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
         "mythic_level": 7,
@@ -3721,6 +4730,42 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/88509-7-arakara-city-of-echoes"
       },
       {
+        "dungeon": "The Stonevault",
+        "short_name": "SV",
+        "mythic_level": 7,
+        "completed_at": "2024-09-19T14:12:55.000Z",
+        "clear_time_ms": 2194935,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 501,
+        "zone_id": 14883,
+        "score": 246,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/604589-7-the-stonevault"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 6,
@@ -3750,6 +4795,64 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/253701-6-mists-of-tirna-scithe"
       },
       {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T21:18:17.000Z",
+        "clear_time_ms": 1805234,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 236.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/411039-6-the-necrotic-wake"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 5,
+        "completed_at": "2024-09-18T22:32:31.000Z",
+        "clear_time_ms": 1248762,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 232.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/410998-5-the-dawnbreaker"
+      },
+      {
         "dungeon": "The Stonevault",
         "short_name": "SV",
         "mythic_level": 5,
@@ -3777,202 +4880,6 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/248705-5-the-stonevault"
-      },
-      {
-        "dungeon": "Mists of Tirna Scithe",
-        "short_name": "MISTS",
-        "mythic_level": 5,
-        "completed_at": "2024-09-18T14:02:16.000Z",
-        "clear_time_ms": 1768911,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 375,
-        "zone_id": 13334,
-        "score": 220.7,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/244379-5-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "Grim Batol",
-        "short_name": "GB",
-        "mythic_level": 5,
-        "completed_at": "2024-09-18T16:41:06.000Z",
-        "clear_time_ms": 1855204,
-        "par_time_ms": 2040999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 507,
-        "zone_id": 4950,
-        "score": 223.4,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/285686-5-grim-batol"
-      },
-      {
-        "dungeon": "City of Threads",
-        "short_name": "COT",
-        "mythic_level": 5,
-        "completed_at": "2024-09-18T12:51:16.000Z",
-        "clear_time_ms": 2047707,
-        "par_time_ms": 2100999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 502,
-        "zone_id": 14979,
-        "score": 221,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/248714-5-city-of-threads"
-      },
-      {
-        "dungeon": "The Necrotic Wake",
-        "short_name": "NW",
-        "mythic_level": 4,
-        "completed_at": "2024-09-17T21:01:52.000Z",
-        "clear_time_ms": 1375419,
-        "par_time_ms": 1860999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 376,
-        "zone_id": 12916,
-        "score": 214.8,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/20050-4-the-necrotic-wake"
-      },
-      {
-        "dungeon": "Ara-Kara, City of Echoes",
-        "short_name": "ARAK",
-        "mythic_level": 4,
-        "completed_at": "2024-09-18T13:29:22.000Z",
-        "clear_time_ms": 1685725,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 503,
-        "zone_id": 15093,
-        "score": 207.4,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/244384-4-arakara-city-of-echoes"
-      },
-      {
-        "dungeon": "Siege of Boralus",
-        "short_name": "SIEGE",
-        "mythic_level": 4,
-        "completed_at": "2024-09-18T03:48:14.000Z",
-        "clear_time_ms": 2265032,
-        "par_time_ms": 1980999,
-        "num_keystone_upgrades": 0,
-        "map_challenge_mode_id": 353,
-        "zone_id": 9354,
-        "score": 184.6,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/186647-4-siege-of-boralus"
-      },
-      {
-        "dungeon": "The Necrotic Wake",
-        "short_name": "NW",
-        "mythic_level": 2,
-        "completed_at": "2024-09-17T20:24:55.000Z",
-        "clear_time_ms": 960736,
-        "par_time_ms": 1860999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 376,
-        "zone_id": 12916,
-        "score": 180,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/15619-2-the-necrotic-wake"
       }
     ],
     "raidProgress": {
@@ -3985,7 +4892,7 @@
       }
     },
     "mythicPlusRating": [
-      1602.5413
+      1939.9873
     ],
     "greatVaultScore": []
   },
@@ -3995,8 +4902,8 @@
     "race": "Night Elf",
     "class": "Warrior",
     "itemLevel": {
-      "equipped": 603,
-      "average": 605
+      "equipped": 604,
+      "average": 606
     },
     "tierSet": [
       {
@@ -4043,7 +4950,7 @@
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 606"
+        "level": "Item Level 619"
       },
       {
         "slot": "HANDS",
@@ -4071,7 +4978,7 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 606"
+        "level": "Item Level 619"
       },
       {
         "slot": "OFF_HAND",
@@ -4100,7 +5007,7 @@
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 606",
+        "level": "Item Level 619",
         "enchanted": true
       },
       {
@@ -4120,23 +5027,92 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 606",
+        "level": "Item Level 619",
         "enchanted": true
       }
     ],
     "sockets": [],
-    "embellishedItems": [],
-    "mythicDungeons": [],
+    "embellishedItems": [
+      {
+        "slot": "WRIST",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
+        ]
+      },
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Damaging a target has a low chance to call upon the power of the Blessed Weapon Grip, granting you 10 stacks that increase your highest secondary stat by 185. These stacks fade over 30 sec."
+        ]
+      }
+    ],
+    "mythicDungeons": [
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 4,
+        "completed_at": "2024-09-19T14:04:05.000Z",
+        "clear_time_ms": 1261322,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 216.2,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/603227-4-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Stonevault",
+        "short_name": "SV",
+        "mythic_level": 3,
+        "completed_at": "2024-09-19T14:50:08.000Z",
+        "clear_time_ms": 1312471,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 501,
+        "zone_id": 14883,
+        "score": 192.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/623464-3-the-stonevault"
+      }
+    ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
-    "mythicPlusRating": [],
+    "mythicPlusRating": [
+      408.86505
+    ],
     "greatVaultScore": []
   },
   {
@@ -4145,8 +5121,8 @@
     "race": "Night Elf",
     "class": "Demon Hunter",
     "itemLevel": {
-      "equipped": 599,
-      "average": 599
+      "equipped": 601,
+      "average": 601
     },
     "tierSet": [
       {
@@ -4159,7 +5135,7 @@
       },
       {
         "slot": "TRINKET_2",
-        "level": "Item Level 610"
+        "level": "Item Level 616"
       }
     ],
     "allItems": [
@@ -4205,7 +5181,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 597"
+        "level": "Item Level 606"
       },
       {
         "slot": "FINGER_2",
@@ -4217,7 +5193,7 @@
       },
       {
         "slot": "TRINKET_2",
-        "level": "Item Level 610"
+        "level": "Item Level 616"
       },
       {
         "slot": "BACK",
@@ -4229,7 +5205,7 @@
       },
       {
         "slot": "OFF_HAND",
-        "level": "Item Level 600"
+        "level": "Item Level 616"
       },
       {
         "slot": "TABARD",
@@ -4259,7 +5235,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 597",
+        "level": "Item Level 606",
         "enchanted": true
       },
       {
@@ -4279,7 +5255,7 @@
       },
       {
         "slot": "OFF_HAND",
-        "level": "Item Level 600",
+        "level": "Item Level 616",
         "enchanted": true
       }
     ],
@@ -4319,10 +5295,10 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
@@ -4337,13 +5313,21 @@
     "race": "Void Elf",
     "class": "Warlock",
     "itemLevel": {
-      "equipped": 611,
-      "average": 611
+      "equipped": 612,
+      "average": 613
     },
     "tierSet": [
       {
+        "slot": "HEAD",
+        "level": "Item Level 610"
+      },
+      {
         "slot": "SHOULDER",
         "level": "Item Level 619"
+      },
+      {
+        "slot": "CHEST",
+        "level": "Item Level 616"
       },
       {
         "slot": "HANDS",
@@ -4353,7 +5337,7 @@
     "allItems": [
       {
         "slot": "HEAD",
-        "level": "Item Level 606"
+        "level": "Item Level 610"
       },
       {
         "slot": "NECK",
@@ -4365,7 +5349,7 @@
       },
       {
         "slot": "CHEST",
-        "level": "Item Level 606"
+        "level": "Item Level 616"
       },
       {
         "slot": "WAIST",
@@ -4377,7 +5361,7 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606"
+        "level": "Item Level 619"
       },
       {
         "slot": "WRIST",
@@ -4413,14 +5397,14 @@
       },
       {
         "slot": "OFF_HAND",
-        "level": "Item Level 613"
+        "level": "Item Level 616"
       }
     ],
     "enchantedItems": [
       {
         "slot": "CHEST",
-        "level": "Item Level 606",
-        "enchanted": true
+        "level": "Item Level 616",
+        "enchanted": false
       },
       {
         "slot": "LEGS",
@@ -4429,7 +5413,7 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606",
+        "level": "Item Level 619",
         "enchanted": true
       },
       {
@@ -4533,13 +5517,85 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606",
+        "level": "Item Level 619",
         "spells": [
           "Equip: Your gear warms with Woven Dawnthread and gains 756 Critical Strike when over 80% health."
         ]
       }
     ],
     "mythicDungeons": [
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 8,
+        "completed_at": "2024-09-19T04:18:36.000Z",
+        "clear_time_ms": 1430203,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 287.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/494933-8-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 7,
+        "completed_at": "2024-09-19T03:21:43.000Z",
+        "clear_time_ms": 1309329,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 276.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/484810-7-the-dawnbreaker"
+      },
       {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
@@ -4577,6 +5633,35 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/283913-7-arakara-city-of-echoes"
       },
       {
+        "dungeon": "Siege of Boralus",
+        "short_name": "SIEGE",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T19:15:15.000Z",
+        "clear_time_ms": 1413976,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 353,
+        "zone_id": 9354,
+        "score": 245.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/331443-6-siege-of-boralus"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 6,
@@ -4604,6 +5689,35 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/268418-6-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T18:38:29.000Z",
+        "clear_time_ms": 1643548,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 239.4,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/331434-6-the-dawnbreaker"
       },
       {
         "dungeon": "Grim Batol",
@@ -4720,122 +5834,6 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/248714-5-city-of-threads"
-      },
-      {
-        "dungeon": "Ara-Kara, City of Echoes",
-        "short_name": "ARAK",
-        "mythic_level": 5,
-        "completed_at": "2024-09-18T06:26:11.000Z",
-        "clear_time_ms": 2076086,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 0,
-        "map_challenge_mode_id": 503,
-        "zone_id": 15093,
-        "score": 199.3,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/161275-5-arakara-city-of-echoes"
-      },
-      {
-        "dungeon": "The Necrotic Wake",
-        "short_name": "NW",
-        "mythic_level": 4,
-        "completed_at": "2024-09-17T21:01:52.000Z",
-        "clear_time_ms": 1375419,
-        "par_time_ms": 1860999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 376,
-        "zone_id": 12916,
-        "score": 214.8,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/20050-4-the-necrotic-wake"
-      },
-      {
-        "dungeon": "Mists of Tirna Scithe",
-        "short_name": "MISTS",
-        "mythic_level": 4,
-        "completed_at": "2024-09-18T05:28:54.000Z",
-        "clear_time_ms": 1473007,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 375,
-        "zone_id": 13334,
-        "score": 211.8,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/142519-4-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "Ara-Kara, City of Echoes",
-        "short_name": "ARAK",
-        "mythic_level": 4,
-        "completed_at": "2024-09-18T13:29:22.000Z",
-        "clear_time_ms": 1685725,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 503,
-        "zone_id": 15093,
-        "score": 207.4,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/244384-4-arakara-city-of-echoes"
       }
     ],
     "raidProgress": {
@@ -4848,7 +5846,7 @@
       }
     },
     "mythicPlusRating": [
-      810.432
+      2006.1425
     ],
     "greatVaultScore": []
   },
@@ -4858,8 +5856,8 @@
     "race": "Dwarf",
     "class": "Shaman",
     "itemLevel": {
-      "equipped": 609,
-      "average": 609
+      "equipped": 610,
+      "average": 610
     },
     "tierSet": [
       {
@@ -4876,7 +5874,7 @@
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 606"
+        "level": "Item Level 613"
       },
       {
         "slot": "OFF_HAND",
@@ -4930,7 +5928,7 @@
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 606"
+        "level": "Item Level 613"
       },
       {
         "slot": "TRINKET_2",
@@ -5049,6 +6047,35 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/88509-7-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-19T14:57:47.000Z",
+        "clear_time_ms": 1254013,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 246.4,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/623581-6-mists-of-tirna-scithe"
       },
       {
         "dungeon": "The Necrotic Wake",
@@ -5192,15 +6219,15 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      1003.5714
+      1484.9918
     ],
     "greatVaultScore": []
   },
@@ -5210,8 +6237,8 @@
     "race": "Dwarf",
     "class": "Mage",
     "itemLevel": {
-      "equipped": 609,
-      "average": 609
+      "equipped": 610,
+      "average": 610
     },
     "tierSet": [
       {
@@ -5254,11 +6281,11 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606"
+        "level": "Item Level 616"
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 606"
+        "level": "Item Level 619"
       },
       {
         "slot": "HANDS",
@@ -5286,7 +6313,7 @@
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 616"
+        "level": "Item Level 619"
       },
       {
         "slot": "OFF_HAND",
@@ -5306,12 +6333,12 @@
       },
       {
         "slot": "FEET",
-        "level": "Item Level 606",
+        "level": "Item Level 616",
         "enchanted": true
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 606",
+        "level": "Item Level 619",
         "enchanted": true
       },
       {
@@ -5327,11 +6354,11 @@
       {
         "slot": "BACK",
         "level": "Item Level 610",
-        "enchanted": false
+        "enchanted": true
       },
       {
         "slot": "MAIN_HAND",
-        "level": "Item Level 616",
+        "level": "Item Level 619",
         "enchanted": true
       }
     ],
@@ -5375,7 +6402,7 @@
     "embellishedItems": [
       {
         "slot": "WRIST",
-        "level": "Item Level 606",
+        "level": "Item Level 619",
         "spells": [
           "Equip: Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative."
         ]
@@ -5389,6 +6416,42 @@
       }
     ],
     "mythicDungeons": [
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 7,
+        "completed_at": "2024-09-19T11:50:07.000Z",
+        "clear_time_ms": 1376474,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 273.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/575046-7-mists-of-tirna-scithe"
+      },
       {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
@@ -5426,6 +6489,35 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/88509-7-arakara-city-of-echoes"
       },
       {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-19T14:57:47.000Z",
+        "clear_time_ms": 1254013,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 246.4,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/623581-6-mists-of-tirna-scithe"
+      },
+      {
         "dungeon": "The Necrotic Wake",
         "short_name": "NW",
         "mythic_level": 5,
@@ -5455,6 +6547,35 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/36066-5-the-necrotic-wake"
       },
       {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 5,
+        "completed_at": "2024-09-19T02:50:16.000Z",
+        "clear_time_ms": 1678076,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 222.6,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/479925-5-mists-of-tirna-scithe"
+      },
+      {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
         "mythic_level": 2,
@@ -5479,15 +6600,15 @@
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      472.00208
+      1212.2458
     ],
     "greatVaultScore": []
   },
@@ -5708,8 +6829,8 @@
     "race": "Dwarf",
     "class": "Shaman",
     "itemLevel": {
-      "equipped": 606,
-      "average": 606
+      "equipped": 608,
+      "average": 608
     },
     "tierSet": [
       {
@@ -5756,7 +6877,7 @@
       },
       {
         "slot": "HANDS",
-        "level": "Item Level 590"
+        "level": "Item Level 610"
       },
       {
         "slot": "FINGER_1",
@@ -5872,6 +6993,259 @@
       {
         "dungeon": "Ara-Kara, City of Echoes",
         "short_name": "ARAK",
+        "mythic_level": 8,
+        "completed_at": "2024-09-18T19:03:04.000Z",
+        "clear_time_ms": 3521684,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336503-8-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T17:32:42.000Z",
+        "clear_time_ms": 2636526,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336475-7-the-necrotic-wake"
+      },
+      {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T20:48:56.000Z",
+        "clear_time_ms": 3089744,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/414170-7-arakara-city-of-echoes"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T18:01:38.000Z",
+        "clear_time_ms": 1354263,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 244.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336544-6-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "Siege of Boralus",
+        "short_name": "SIEGE",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T22:28:52.000Z",
+        "clear_time_ms": 1506619,
+        "par_time_ms": 1980999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 353,
+        "zone_id": 9354,
+        "score": 244,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/414165-6-siege-of-boralus"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T19:54:16.000Z",
+        "clear_time_ms": 1825580,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 235.7,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/317248-6-the-dawnbreaker"
+      },
+      {
+        "dungeon": "Grim Batol",
+        "short_name": "GB",
+        "mythic_level": 5,
+        "completed_at": "2024-09-19T03:21:16.000Z",
+        "clear_time_ms": 1617148,
+        "par_time_ms": 2040999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 507,
+        "zone_id": 4950,
+        "score": 227.8,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/501168-5-grim-batol"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 5,
+        "completed_at": "2024-09-18T21:24:55.000Z",
+        "clear_time_ms": 1710137,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 223,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/414190-5-the-necrotic-wake"
+      },
+      {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
         "mythic_level": 4,
         "completed_at": "2024-09-18T13:48:49.000Z",
         "clear_time_ms": 1090775,
@@ -5926,216 +7300,19 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/106654-4-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "Mists of Tirna Scithe",
-        "short_name": "MISTS",
-        "mythic_level": 4,
-        "completed_at": "2024-09-17T22:58:47.000Z",
-        "clear_time_ms": 1242565,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 375,
-        "zone_id": 13334,
-        "score": 216.6,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/56596-4-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "City of Threads",
-        "short_name": "COT",
-        "mythic_level": 4,
-        "completed_at": "2024-09-18T14:22:57.000Z",
-        "clear_time_ms": 1590104,
-        "par_time_ms": 2100999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 502,
-        "zone_id": 14979,
-        "score": 214.1,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/254551-4-city-of-threads"
-      },
-      {
-        "dungeon": "The Stonevault",
-        "short_name": "SV",
-        "mythic_level": 4,
-        "completed_at": "2024-09-17T21:13:25.000Z",
-        "clear_time_ms": 2198386,
-        "par_time_ms": 1980999,
-        "num_keystone_upgrades": 0,
-        "map_challenge_mode_id": 501,
-        "zone_id": 14883,
-        "score": 185.9,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/26282-4-the-stonevault"
-      },
-      {
-        "dungeon": "The Necrotic Wake",
-        "short_name": "NW",
-        "mythic_level": 3,
-        "completed_at": "2024-09-17T21:43:07.000Z",
-        "clear_time_ms": 1290964,
-        "par_time_ms": 1860999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 376,
-        "zone_id": 12916,
-        "score": 191.5,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/32401-3-the-necrotic-wake"
-      },
-      {
-        "dungeon": "Mists of Tirna Scithe",
-        "short_name": "MISTS",
-        "mythic_level": 2,
-        "completed_at": "2024-09-18T04:02:49.000Z",
-        "clear_time_ms": 898451,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 375,
-        "zone_id": 13334,
-        "score": 180,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/108168-2-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "Ara-Kara, City of Echoes",
-        "short_name": "ARAK",
-        "mythic_level": 2,
-        "completed_at": "2024-09-18T03:26:28.000Z",
-        "clear_time_ms": 904073,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 503,
-        "zone_id": 15093,
-        "score": 180,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/107462-2-arakara-city-of-echoes"
-      },
-      {
-        "dungeon": "Ara-Kara, City of Echoes",
-        "short_name": "ARAK",
-        "mythic_level": 2,
-        "completed_at": "2024-09-17T22:06:49.000Z",
-        "clear_time_ms": 996838,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 503,
-        "zone_id": 15093,
-        "score": 180,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/35899-2-arakara-city-of-echoes"
-      },
-      {
-        "dungeon": "Siege of Boralus",
-        "short_name": "SIEGE",
-        "mythic_level": 2,
-        "completed_at": "2024-09-17T20:32:02.000Z",
-        "clear_time_ms": 1321866,
-        "par_time_ms": 1980999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 353,
-        "zone_id": 9354,
-        "score": 177.5,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/15515-2-siege-of-boralus"
       }
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      1205.3247
+      1794.4849
     ],
     "greatVaultScore": []
   },
@@ -6209,11 +7386,11 @@
       },
       {
         "slot": "TRINKET_1",
-        "level": "Item Level 619"
+        "level": "Item Level 606"
       },
       {
         "slot": "TRINKET_2",
-        "level": "Item Level 606"
+        "level": "Item Level 619"
       },
       {
         "slot": "BACK",
@@ -6357,6 +7534,42 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/89914-8-the-stonevault"
       },
       {
+        "dungeon": "Ara-Kara, City of Echoes",
+        "short_name": "ARAK",
+        "mythic_level": 8,
+        "completed_at": "2024-09-18T19:03:04.000Z",
+        "clear_time_ms": 3521684,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 503,
+        "zone_id": 15093,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336503-8-arakara-city-of-echoes"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 7,
@@ -6391,6 +7604,42 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/237129-7-mists-of-tirna-scithe"
+      },
+      {
+        "dungeon": "The Dawnbreaker",
+        "short_name": "DAWN",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T21:03:38.000Z",
+        "clear_time_ms": 1407046,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 505,
+        "zone_id": 14971,
+        "score": 274.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/352852-7-the-dawnbreaker"
       },
       {
         "dungeon": "Ara-Kara, City of Echoes",
@@ -6429,6 +7678,42 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/91049-7-arakara-city-of-echoes"
       },
       {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T17:32:42.000Z",
+        "clear_time_ms": 2636526,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336475-7-the-necrotic-wake"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 7,
@@ -6465,6 +7750,71 @@
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/43224-7-mists-of-tirna-scithe"
       },
       {
+        "dungeon": "City of Threads",
+        "short_name": "COT",
+        "mythic_level": 7,
+        "completed_at": "2024-09-18T22:15:03.000Z",
+        "clear_time_ms": 2944023,
+        "par_time_ms": 2100999,
+        "num_keystone_upgrades": 0,
+        "map_challenge_mode_id": 502,
+        "zone_id": 14979,
+        "score": 0,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          },
+          {
+            "id": 152,
+            "name": "Challenger's Peril",
+            "description": "Dying subtracts 15 seconds from time remaining.",
+            "icon": "achievement_challengemode_everbloom_hourglass",
+            "wowhead_url": "https://wowhead.com/affix=152"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/447210-7-city-of-threads"
+      },
+      {
+        "dungeon": "Mists of Tirna Scithe",
+        "short_name": "MISTS",
+        "mythic_level": 6,
+        "completed_at": "2024-09-18T18:01:38.000Z",
+        "clear_time_ms": 1354263,
+        "par_time_ms": 1800999,
+        "num_keystone_upgrades": 2,
+        "map_challenge_mode_id": 375,
+        "zone_id": 13334,
+        "score": 244.3,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          },
+          {
+            "id": 9,
+            "name": "Tyrannical",
+            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+            "icon": "achievement_boss_archaedas",
+            "wowhead_url": "https://wowhead.com/affix=9"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/336544-6-mists-of-tirna-scithe"
+      },
+      {
         "dungeon": "Mists of Tirna Scithe",
         "short_name": "MISTS",
         "mythic_level": 5,
@@ -6492,150 +7842,19 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/91056-5-mists-of-tirna-scithe"
-      },
-      {
-        "dungeon": "The Necrotic Wake",
-        "short_name": "NW",
-        "mythic_level": 5,
-        "completed_at": "2024-09-18T05:17:23.000Z",
-        "clear_time_ms": 1516610,
-        "par_time_ms": 1860999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 376,
-        "zone_id": 12916,
-        "score": 226.9,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/179385-5-the-necrotic-wake"
-      },
-      {
-        "dungeon": "Grim Batol",
-        "short_name": "GB",
-        "mythic_level": 5,
-        "completed_at": "2024-09-18T16:41:06.000Z",
-        "clear_time_ms": 1855204,
-        "par_time_ms": 2040999,
-        "num_keystone_upgrades": 1,
-        "map_challenge_mode_id": 507,
-        "zone_id": 4950,
-        "score": 223.4,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/285686-5-grim-batol"
-      },
-      {
-        "dungeon": "Ara-Kara, City of Echoes",
-        "short_name": "ARAK",
-        "mythic_level": 4,
-        "completed_at": "2024-09-17T20:46:39.000Z",
-        "clear_time_ms": 1969121,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 0,
-        "map_challenge_mode_id": 503,
-        "zone_id": 15093,
-        "score": 186.5,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          },
-          {
-            "id": 9,
-            "name": "Tyrannical",
-            "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-            "icon": "achievement_boss_archaedas",
-            "wowhead_url": "https://wowhead.com/affix=9"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/17489-4-arakara-city-of-echoes"
-      },
-      {
-        "dungeon": "The Dawnbreaker",
-        "short_name": "DAWN",
-        "mythic_level": 3,
-        "completed_at": "2024-09-18T07:39:11.000Z",
-        "clear_time_ms": 1370864,
-        "par_time_ms": 1860999,
-        "num_keystone_upgrades": 2,
-        "map_challenge_mode_id": 505,
-        "zone_id": 14971,
-        "score": 189.9,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/179393-3-the-dawnbreaker"
-      },
-      {
-        "dungeon": "Mists of Tirna Scithe",
-        "short_name": "MISTS",
-        "mythic_level": 2,
-        "completed_at": "2024-09-17T21:08:19.000Z",
-        "clear_time_ms": 1025857,
-        "par_time_ms": 1800999,
-        "num_keystone_upgrades": 3,
-        "map_challenge_mode_id": 375,
-        "zone_id": 13334,
-        "score": 180,
-        "affixes": [
-          {
-            "id": 148,
-            "name": "Xal'atath's Bargain: Ascendant",
-            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-            "icon": "inv_nullstone_cosmicvoid",
-            "wowhead_url": "https://wowhead.com/affix=148"
-          }
-        ],
-        "url": "https://raider.io/mythic-plus-runs/season-tww-1/26345-2-mists-of-tirna-scithe"
       }
     ],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
     "mythicPlusRating": [
-      1140.6467
+      1914.1661
     ],
     "greatVaultScore": []
   },
@@ -6645,8 +7864,8 @@
     "race": "Human",
     "class": "Priest",
     "itemLevel": {
-      "equipped": 606,
-      "average": 607
+      "equipped": 609,
+      "average": 609
     },
     "tierSet": [
       {
@@ -6677,7 +7896,7 @@
       },
       {
         "slot": "WAIST",
-        "level": "Item Level 606"
+        "level": "Item Level 613"
       },
       {
         "slot": "LEGS",
@@ -6689,7 +7908,7 @@
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 606"
+        "level": "Item Level 610"
       },
       {
         "slot": "HANDS",
@@ -6697,7 +7916,7 @@
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 593"
+        "level": "Item Level 616"
       },
       {
         "slot": "FINGER_2",
@@ -6718,10 +7937,6 @@
       {
         "slot": "MAIN_HAND",
         "level": "Item Level 619"
-      },
-      {
-        "slot": "OFF_HAND",
-        "level": "Item Level 610"
       }
     ],
     "enchantedItems": [
@@ -6742,12 +7957,12 @@
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 606",
+        "level": "Item Level 610",
         "enchanted": true
       },
       {
         "slot": "FINGER_1",
-        "level": "Item Level 593",
+        "level": "Item Level 616",
         "enchanted": true
       },
       {
@@ -6769,27 +7984,42 @@
     "sockets": [
       {
         "slot": "FINGER_1",
-        "level": "Item Level 593",
+        "level": "Item Level 616",
         "sockets": [
           {
             "type": {
               "type": "PRISMATIC",
               "name": "Prismatic Socket"
             },
-            "gem": "Culminating Blasphemite"
+            "gem": "Masterful Emerald"
+          },
+          {
+            "type": {
+              "type": "PRISMATIC",
+              "name": "Prismatic Socket"
+            },
+            "gem": "Masterful Emerald"
           }
         ],
         "socketed": true
       }
     ],
-    "embellishedItems": [],
+    "embellishedItems": [
+      {
+        "slot": "MAIN_HAND",
+        "level": "Item Level 619",
+        "spells": [
+          "Equip: Gain scendance every 8 seconds spent in combat.\r\n\r\nscendance grants 89 of a random secondary stat for 15 sec, stacking up to 10 times.\r\n\r\nThis is a Nerubian embellishment."
+        ]
+      }
+    ],
     "mythicDungeons": [],
     "raidProgress": {
       "nerubar-palace": {
-        "summary": "4/8 H",
+        "summary": "6/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 4,
+        "heroic_bosses_killed": 6,
         "mythic_bosses_killed": 0
       }
     },
@@ -6802,8 +8032,8 @@
     "race": "Blood Elf",
     "class": "Monk",
     "itemLevel": {
-      "equipped": 602,
-      "average": 602
+      "equipped": 604,
+      "average": 604
     },
     "tierSet": [
       {
@@ -6830,7 +8060,7 @@
       },
       {
         "slot": "CHEST",
-        "level": "Item Level 593"
+        "level": "Item Level 606"
       },
       {
         "slot": "WAIST",
@@ -6846,7 +8076,7 @@
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 597"
+        "level": "Item Level 606"
       },
       {
         "slot": "HANDS",
@@ -6866,11 +8096,11 @@
       },
       {
         "slot": "TRINKET_2",
-        "level": "Item Level 603"
+        "level": "Item Level 606"
       },
       {
         "slot": "BACK",
-        "level": "Item Level 603"
+        "level": "Item Level 606"
       },
       {
         "slot": "MAIN_HAND",
@@ -6884,7 +8114,7 @@
     "enchantedItems": [
       {
         "slot": "CHEST",
-        "level": "Item Level 593",
+        "level": "Item Level 606",
         "enchanted": true
       },
       {
@@ -6899,7 +8129,7 @@
       },
       {
         "slot": "WRIST",
-        "level": "Item Level 597",
+        "level": "Item Level 606",
         "enchanted": true
       },
       {
@@ -6914,7 +8144,7 @@
       },
       {
         "slot": "BACK",
-        "level": "Item Level 603",
+        "level": "Item Level 606",
         "enchanted": true
       },
       {
@@ -7027,6 +8257,28 @@
           }
         ],
         "url": "https://raider.io/mythic-plus-runs/season-tww-1/27279-2-the-dawnbreaker"
+      },
+      {
+        "dungeon": "The Necrotic Wake",
+        "short_name": "NW",
+        "mythic_level": 2,
+        "completed_at": "2024-09-19T14:43:47.000Z",
+        "clear_time_ms": 1558194,
+        "par_time_ms": 1860999,
+        "num_keystone_upgrades": 1,
+        "map_challenge_mode_id": 376,
+        "zone_id": 12916,
+        "score": 171.1,
+        "affixes": [
+          {
+            "id": 148,
+            "name": "Xal'atath's Bargain: Ascendant",
+            "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
+            "icon": "inv_nullstone_cosmicvoid",
+            "wowhead_url": "https://wowhead.com/affix=148"
+          }
+        ],
+        "url": "https://raider.io/mythic-plus-runs/season-tww-1/612441-2-the-necrotic-wake"
       }
     ],
     "raidProgress": {
@@ -7039,7 +8291,7 @@
       }
     },
     "mythicPlusRating": [
-      533.4048
+      704.48956
     ],
     "greatVaultScore": []
   }
