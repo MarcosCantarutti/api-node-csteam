@@ -1,3 +1,4 @@
+const { createClient } = require('@supabase/supabase-js');
 const express = require('express');
 const axios = require('axios');
 const dotenv = require('dotenv');
@@ -20,7 +21,34 @@ const locale = process.env.LOCALE;
 const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
 
-const dataFilePath = path.join(__dirname, 'dados.json');
+
+
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_KEY;
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+async function upsertPlayerData(playerData) {
+  const createdAt = new Date().toISOString(); 
+  const formattedCreatedAt = createdAt.replace('T', ' ').replace('Z', '');
+
+  const { data, error } = await supabase
+    .from('PLAYERS_JSON')
+    .upsert([
+      {
+        id: playerData.id,
+        created_at: formattedCreatedAt,
+        player_data: playerData,
+      }
+    ], { onConflict: 'id' }); // Define que o conflito será resolvido pelo campo ID
+
+  if (error) {
+    console.error('Erro ao atualizar dados:', error.message);
+    return;
+  }
+
+  console.log('Dados atualizados com sucesso para o player: ', playerData.name );
+}
+
 
 async function getBlizzardAccessToken(clientId, clientSecret) {
   const url = `https://${region}.battle.net/oauth/token`;
@@ -81,7 +109,7 @@ async function getGuildRoster(realm, guildName, accessToken) {
   try {
     const response = await axios.get(url);
     const filteredMembers = response.data.members.filter(
-      (member) => member.character.level >= 80 && member.rank <= 3
+      (member) => member.character.level >= 80 && member.rank <= 2
     );
     return filteredMembers;
   } catch (error) {
@@ -140,41 +168,42 @@ app.get('/guild-info', async (req, res) => {
   try {
     const accessToken = await getBlizzardAccessToken(clientId, clientSecret);
     const guildRoster = await getGuildRoster(realm, guildName, accessToken);
-
-    let result = '';
-    const mockFilePath = path.join(__dirname, 'mockData.json');
-
-    fs.writeFileSync(mockFilePath, '[]', 'utf8');
+    let upsertData = [];
 
     for (const member of guildRoster) {
-      if (member.character.level >= 80 && member.rank <= 3) {
+      if (member.character.level >= 80 && member.rank <= 2) {
         const characterID = member.character.id;
         const characterName = member.character.name;
         const chracterLevel = member.character.level;
         const characterRank = member.rank;
         const characterHref = member.character.key.href;
 
-        const currentMockData = JSON.parse(
-          fs.readFileSync(mockFilePath, 'utf8')
-        );
-        currentMockData.push({
+        upsertData.push({
           id: characterID,
           name: characterName,
           level: chracterLevel,
-          rank:characterRank,
+          rank: characterRank,
           href: characterHref,
+          created_at: new Date().toISOString(), // Definindo a data de criação
         });
 
-        fs.writeFileSync(
-          mockFilePath,
-          JSON.stringify(currentMockData, null, 2),
-          'utf8'
-        );
-
-        result += `Nome do Personagem: ${characterName}<br>`;
-        result += `Link de Informações: ${characterHref}<br><br>`;
+    
       }
     }
+
+      // Upsert no Supabase
+    const { data, error } = await supabase
+      .from('ROSTER')
+      .upsert(upsertData, { onConflict: 'id' });
+
+    if (error) {
+      throw error;
+    }
+
+    // Montando a resposta
+    const result = upsertData.map(member => {
+      return `Nome do Personagem: ${member.name}<br>`;
+    }).join('');
 
     res.send(result);
   } catch (error) {
@@ -184,18 +213,23 @@ app.get('/guild-info', async (req, res) => {
 });
 
 async function getMockGuildRoster() {
-  const mockFilePath = path.join(__dirname, 'mockData.json');
-
   try {
-    if (!fs.existsSync(mockFilePath)) {
-      throw new Error('Arquivo mockData.json não encontrado.');
+    const { data, error } = await supabase
+      .from('ROSTER')
+      .select('*'); // Seleciona todos os dados da tabela ROSTER
+
+    if (error) {
+      throw error;
     }
 
-    const mockData = JSON.parse(fs.readFileSync(mockFilePath, 'utf8'));
+    if (!data || data.length === 0) {
+      throw new Error('Nenhum dado encontrado na tabela ROSTER.');
+    }
 
-    const mockRoster = mockData.map((character) => ({
+    // Retorna o roster em formato compatível
+    const mockRoster = data.map((character) => ({
       character: {
-        id:character.id,
+        id: character.id,
         name: character.name,
         key: { href: character.href },
         level: character.level,
@@ -210,17 +244,27 @@ async function getMockGuildRoster() {
   }
 }
 
-app.get('/dados', (req, res) => {
+
+app.get('/dados', async (req, res) => {
+
+  res.setHeader('Cache-Control', 'no-store');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
   try {
-    if (fs.existsSync(dataFilePath)) {
-      const data = JSON.parse(fs.readFileSync(dataFilePath, 'utf8'));
-      res.json(data);
-    } else {
-      res.status(404).json({ error: 'Arquivo dados.json não encontrado.' });
+    const { data, error } = await supabase
+      .from('PLAYERS_JSON')
+      .select('player_data');
+
+    if (error) {
+      throw error;
     }
+
+    const playersData = data.map(item => item.player_data);
+
+    res.json(playersData);
   } catch (error) {
-    console.error('Erro ao ler dados.json:', error);
-    res.status(500).json({ error: 'Erro ao ler dados.json.' });
+    console.error('Erro ao consultar o Supabase:', error);
+    res.status(500).json({ error: 'Erro ao consultar o Supabase.' });
   }
 });
 
@@ -232,7 +276,7 @@ async function refreshData() {
     let result = [];
 
     for (const member of guildRoster) {
-      if (member.character.level >= 80 && member.rank <= 3) {
+      if (member.character.level >= 80 && member.rank <= 2) {
         const characterName = member.character.name;
         const characterInfo = await getCharacterInfo(
           accessToken,
@@ -241,7 +285,7 @@ async function refreshData() {
         const realm = characterInfo.realm.slug;
 
         let characterData = {
-          id:member.id,
+          id:member.character.id,
           rank:member.rank,
           href:member.character.key.href,
           name: characterInfo.name,
@@ -368,34 +412,25 @@ async function refreshData() {
         if (getRaiderIoRaidData && getRaiderIoRaidData.raid_progression) {
           characterData.raidProgress = getRaiderIoRaidData.raid_progression;
         }
-        
-        
-        // const greatVaultData = await getGreatVault(
-        //   accessToken,
-        //   characterInfo.mythic_keystone_profile.href
-        // );
 
-        // if (greatVaultData && greatVaultData.rewards) {
-        //   for (const reward of greatVaultData.rewards) {
-        //     characterData.greatVaultScore.push({
-        //       slot: reward.slot.type,
-        //       score: reward.level.display_string,
-        //     });
-        //   }
-        // }
+        await upsertPlayerData(characterData);
 
-        result.push(characterData);
-        // console.log(characterData);
       }
     }
 
-    fs.writeFileSync(dataFilePath, JSON.stringify(result, null, 2), 'utf8');
+    // fs.writeFileSync(dataFilePath, JSON.stringify(result, null, 2), 'utf8');
+
+    console.log('FInalizado com sucesso!');
   } catch (error) {
     console.error('Erro ao atualizar dados:', error);
   }
 }
 
 app.get('/', async (req, res) => {
+  res.setHeader('Cache-Control', 'no-store');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
+
   try {
     await refreshData();
     res.json({ message: 'Dados atualizados com sucesso!' });
@@ -406,7 +441,7 @@ app.get('/', async (req, res) => {
 });
 
 // Configura o cron job para rodar a cada 6 horas
-cron.schedule('0 */6 * * *', async () => {
+cron.schedule('0 */1 * * *', async () => {
   console.log('Iniciando atualização de dados programada...');
   await refreshData();
 });
