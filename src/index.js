@@ -123,10 +123,6 @@ async function getRaiderIoData(region, realm, name, fields){
 
 async function getGreatVault(accessToken, url) {
   try {
-    // url = url.replace(
-    //   'mythic-keystone-profile?',
-    //   'mythic-keystone-profile/season/17?'
-    // );
     const response = await axios.get(
       `${url}&locale=${locale}&access_token=${accessToken}`
     );
@@ -152,14 +148,20 @@ app.get('/guild-info', async (req, res) => {
 
     for (const member of guildRoster) {
       if (member.character.level >= 80 && member.rank <= 3) {
+        const characterID = member.character.id;
         const characterName = member.character.name;
+        const chracterLevel = member.character.level;
+        const characterRank = member.rank;
         const characterHref = member.character.key.href;
 
         const currentMockData = JSON.parse(
           fs.readFileSync(mockFilePath, 'utf8')
         );
         currentMockData.push({
+          id: characterID,
           name: characterName,
+          level: chracterLevel,
+          rank:characterRank,
           href: characterHref,
         });
 
@@ -193,11 +195,12 @@ async function getMockGuildRoster() {
 
     const mockRoster = mockData.map((character) => ({
       character: {
+        id:character.id,
         name: character.name,
         key: { href: character.href },
-        level: 80,
+        level: character.level,
       },
-      rank: 3,
+      rank: character.rank,
     }));
 
     return mockRoster;
@@ -238,6 +241,9 @@ async function refreshData() {
         const realm = characterInfo.realm.slug;
 
         let characterData = {
+          id:member.id,
+          rank:member.rank,
+          href:member.character.key.href,
           name: characterInfo.name,
           level: characterInfo.level,
           race: characterInfo.race.name,
