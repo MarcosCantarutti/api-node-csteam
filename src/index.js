@@ -245,7 +245,7 @@ async function getMockGuildRoster() {
 
 app.get('/dados', async (req, res) => {
 
-  res.setHeader('Cache-Control', 'public, max-age=60'); 
+  // res.setHeader('Cache-Control', 'public, max-age=60'); 
 
   try {
     const { data, error } = await supabase
