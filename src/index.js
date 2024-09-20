@@ -3,8 +3,6 @@ const express = require('express');
 const axios = require('axios');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
 const cron = require('node-cron');
 
 dotenv.config();
@@ -247,9 +245,8 @@ async function getMockGuildRoster() {
 
 app.get('/dados', async (req, res) => {
 
-  res.setHeader('Cache-Control', 'no-store');
-  res.setHeader('Pragma', 'no-cache');
-  res.setHeader('Expires', '0');
+  res.setHeader('Cache-Control', 'public, max-age=60'); 
+
   try {
     const { data, error } = await supabase
       .from('PLAYERS_JSON')
