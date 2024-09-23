@@ -410,10 +410,10 @@ async function refreshData() {
           characterData.mythicPlusRating.push(mythicPlusData.current_mythic_rating.rating);
         }
 
-        const getRaiderIoMplusData = await getRaiderIoData('us', realm, characterName, 'mythic_plus_weekly_highest_level_runs');
+        const getRaiderIoMplusData = await getRaiderIoData('us', realm, characterName, 'mythic_plus_recent_runs');
 
-        if (getRaiderIoMplusData && getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs) {
-          characterData.mythicDungeons = getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs;
+        if (getRaiderIoMplusData && getRaiderIoMplusData.mythic_plus_recent_runs) {
+          characterData.mythicDungeons = getRaiderIoMplusData.mythic_plus_recent_runs;
         }
 
         const getRaiderIoRaidData = await getRaiderIoData('us', realm, characterName, 'raid_progression');
