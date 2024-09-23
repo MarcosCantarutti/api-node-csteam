@@ -506,7 +506,3 @@ cron.schedule('0 */1 * * *', async () => {
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
-
-
-const getDungeonsDoneThisWeak = getDungeonsDoneThisWeek(138418144)
-console.log(getDungeonsDoneThisWeak)
