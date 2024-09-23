@@ -133,6 +133,51 @@ async function getCharacterMythicPlus(accessToken, url) {
   }
 }
 
+async function getDungeonsDoneThisWeek(characterId) {
+  const now = new Date();
+  const today = now.getUTCDay(); // 0 = Domingo, 1 = Segunda, ..., 6 = Sábado
+
+  // Encontra a última terça-feira às 12:00
+  let lastTuesday = new Date(now);
+  lastTuesday.setUTCHours(12, 0, 0, 0); // Define 12:00 em UTC
+
+  if (today < 2 || (today === 2 && now.getUTCHours() < 12)) {
+    // Se for segunda ou antes de 12:00 de terça, subtrai uma semana
+    lastTuesday.setDate(now.getDate() - (today + 5)); // Ajuste para a terça anterior
+  } else {
+    // Se for depois de 12:00 de terça, ajusta para a terça desta semana
+    lastTuesday.setDate(now.getDate() - (today - 2));
+  }
+
+  let dungeonsId = [12916, 13334, 14979, 14883, 15093, 14971, 4950, 9354];
+  let totalDungeonsThisWeek = 0;
+
+  for (const dungeonId of dungeonsId) {
+    const response = await fetch(`https://raider.io/api/characters/mythic-plus-runs?season=season-tww-1&characterId=${characterId}&dungeonId=${dungeonId}&role=all&specId=0&mode=scored&affixes=all&date=all`);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    
+    const data = await response.json();
+    console.log(data)
+    const runs = data.runs || []; // Garantir que runs é um array
+
+    const dungeonsThisWeek = runs.filter(run => {
+      const completedAt = new Date(run.summary.completed_at);
+      return completedAt >= lastTuesday;
+    });
+
+    totalDungeonsThisWeek += dungeonsThisWeek.length;
+  }
+
+  console.log(totalDungeonsThisWeek)
+
+  return totalDungeonsThisWeek;
+}
+
+
 async function getRaiderIoData(region, realm, name, fields){
   try {
     const response = await fetch(`https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${name}&fields=${fields}`);
@@ -231,6 +276,7 @@ async function getMockGuildRoster() {
         name: character.name,
         key: { href: character.href },
         level: character.level,
+        raider_io_id: character.raider_io_id
       },
       rank: character.rank,
     }));
@@ -305,8 +351,9 @@ async function refreshData() {
             equipped: characterInfo.equipped_item_level,
             average: characterInfo.average_item_level,
           },
+          raider_io_id:member.character.raider_io_id,
+          mythicDungeonsDoneThisWeek: 0,
           tierSet: [],
-          allItems: [],
           enchantedItems: [],
           sockets: [],
           embellishedItems: [],
@@ -333,11 +380,6 @@ async function refreshData() {
         );
 
         for (const item of characterEquipment.equipped_items) {
-          characterData.allItems.push({
-            slot: item.slot.type,
-            level: item.level.display_string,
-          });
-
           // Verificação de Tier Set
           if (item.set) {
             characterData.tierSet.push({
@@ -410,11 +452,17 @@ async function refreshData() {
           characterData.mythicPlusRating.push(mythicPlusData.current_mythic_rating.rating);
         }
 
-        const getRaiderIoMplusData = await getRaiderIoData('us', realm, characterName, 'mythic_plus_weekly_highest_level_runs');
+        const getDungeonsDoneThisWeak = await getDungeonsDoneThisWeek(member.character.raider_io_id)
 
-        if (getRaiderIoMplusData && getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs) {
-          characterData.mythicDungeons = getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs;
+        if(getDungeonsDoneThisWeak){
+          characterData.mythicDungeonsDoneThisWeek = getDungeonsDoneThisWeak
         }
+
+        // const getRaiderIoMplusData = await getRaiderIoData('us', realm, characterName, 'mythic_plus_weekly_highest_level_runs');
+
+        // if (getRaiderIoMplusData && getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs) {
+        //   characterData.mythicDungeons = getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs;
+        // }
 
         const getRaiderIoRaidData = await getRaiderIoData('us', realm, characterName, 'raid_progression');
 
@@ -458,3 +506,7 @@ cron.schedule('0 */1 * * *', async () => {
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
+
+const getDungeonsDoneThisWeak = getDungeonsDoneThisWeek(138418144)
+console.log(getDungeonsDoneThisWeak)
