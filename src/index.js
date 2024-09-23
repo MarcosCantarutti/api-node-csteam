@@ -243,11 +243,20 @@ async function getMockGuildRoster() {
 }
 
 
+let cachedPlayersData = null;
+let lastFetchTime = 0;
+const cacheDuration = 5 * 60 * 1000; // Cache por 5 minutos (em milissegundos)
+
 app.get('/dados', async (req, res) => {
-
-  // res.setHeader('Cache-Control', 'public, max-age=60'); 
-
   try {
+    const currentTime = Date.now();
+
+    // Verificar se há dados em cache e se ainda são válidos
+    if (cachedPlayersData && currentTime - lastFetchTime < cacheDuration) {
+      return res.json(cachedPlayersData); // Retornar dados do cache
+    }
+
+    // Caso contrário, consultar o Supabase
     const { data, error } = await supabase
       .from('PLAYERS_JSON')
       .select('player_data');
@@ -256,14 +265,17 @@ app.get('/dados', async (req, res) => {
       throw error;
     }
 
-    const playersData = data.map(item => item.player_data);
+    // Armazenar os dados no cache e atualizar o timestamp da última consulta
+    cachedPlayersData = data.map(item => item.player_data);
+    lastFetchTime = currentTime;
 
-    res.json(playersData);
+    res.json(cachedPlayersData);
   } catch (error) {
     console.error('Erro ao consultar o Supabase:', error);
     res.status(500).json({ error: 'Erro ao consultar o Supabase.' });
   }
 });
+
 
 async function refreshData() {
   try {
