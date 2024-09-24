@@ -3,7 +3,7 @@ const express = require('express');
 const axios = require('axios');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const cron = require('node-cron');
+// const cron = require('node-cron');
 
 dotenv.config();
 
@@ -133,11 +133,11 @@ async function getCharacterMythicPlus(accessToken, url) {
   }
 }
 
-async function getDungeonsDoneThisWeek(characterId) {
+async function getDungeonsDoneWithId(characterId) {
   const now = new Date();
   const today = now.getUTCDay(); // 0 = Domingo, 1 = Segunda, ..., 6 = Sábado
 
-  // Encontra a última terça-feira às 12:00
+  // Encontra a última terça-feira às 12:00 no horário de Brasília (UTC-3)
   let lastTuesday = new Date(now);
   lastTuesday.setUTCHours(12, 0, 0, 0); // Define 12:00 em UTC
 
@@ -149,8 +149,12 @@ async function getDungeonsDoneThisWeek(characterId) {
     lastTuesday.setDate(now.getDate() - (today - 2));
   }
 
+  // Ajuste para o fuso horário de Brasília (UTC-3)
+  lastTuesday = new Date(lastTuesday.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }));
+
   let dungeonsId = [12916, 13334, 14979, 14883, 15093, 14971, 4950, 9354];
   let totalDungeonsThisWeek = 0;
+  let totalDungeonsAllTime = 0;
 
   for (const dungeonId of dungeonsId) {
     const response = await fetch(`https://raider.io/api/characters/mythic-plus-runs?season=season-tww-1&characterId=${characterId}&dungeonId=${dungeonId}&role=all&specId=0&mode=scored&affixes=all&date=all`);
@@ -159,23 +163,26 @@ async function getDungeonsDoneThisWeek(characterId) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    
     const data = await response.json();
-    console.log(data)
     const runs = data.runs || []; // Garantir que runs é um array
 
     const dungeonsThisWeek = runs.filter(run => {
       const completedAt = new Date(run.summary.completed_at);
-      return completedAt >= lastTuesday;
+      const completedAtBrazil = new Date(completedAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }));
+
+      totalDungeonsAllTime++;
+
+      return completedAtBrazil >= lastTuesday;
     });
 
     totalDungeonsThisWeek += dungeonsThisWeek.length;
   }
 
-  console.log(totalDungeonsThisWeek)
+  console.log(totalDungeonsThisWeek);
 
-  return totalDungeonsThisWeek;
+  return {totalDungeonsAllTime: totalDungeonsAllTime, totalDungeonsThisWeek: totalDungeonsThisWeek};
 }
+
 
 
 async function getRaiderIoData(region, realm, name, fields){
@@ -197,7 +204,6 @@ async function getGreatVault(accessToken, url) {
     const response = await axios.get(
       `${url}&locale=${locale}&access_token=${accessToken}`
     );
-    // console.log(response.data)
     return response.data;
   } catch (error) {
     console.error(
@@ -353,6 +359,7 @@ async function refreshData() {
           },
           raider_io_id:member.character.raider_io_id,
           mythicDungeonsDoneThisWeek: 0,
+          mythicDungeonsDoneAlltime:0,
           tierSet: [],
           enchantedItems: [],
           sockets: [],
@@ -445,19 +452,20 @@ async function refreshData() {
           accessToken,
           characterInfo.mythic_keystone_profile.href
         );
-
-        // console.log(mythicPlusData.current_period)
         
         if (mythicPlusData.current_mythic_rating) {
           characterData.mythicPlusRating.push(mythicPlusData.current_mythic_rating.rating);
         }
 
-        const getDungeonsDoneThisWeak = await getDungeonsDoneThisWeek(member.character.raider_io_id)
+        const getDungeonsDone = await getDungeonsDoneWithId(member.character.raider_io_id)
 
-        if(getDungeonsDoneThisWeak){
-          characterData.mythicDungeonsDoneThisWeek = getDungeonsDoneThisWeak
+        if(getDungeonsDone.totalDungeonsThisWeek){
+          characterData.mythicDungeonsDoneThisWeek = getDungeonsDoneThisWeak.totalDungeonsThisWeek
         }
 
+        if(getDungeonsDone.totalDungeonsAllTime){
+          characterData.mythicDungeonsDoneAlltime = getDungeonsDone.totalDungeonsAllTime
+        }
         // const getRaiderIoMplusData = await getRaiderIoData('us', realm, characterName, 'mythic_plus_weekly_highest_level_runs');
 
         // if (getRaiderIoMplusData && getRaiderIoMplusData.mythic_plus_weekly_highest_level_runs) {
@@ -477,7 +485,7 @@ async function refreshData() {
 
     // fs.writeFileSync(dataFilePath, JSON.stringify(result, null, 2), 'utf8');
 
-    console.log('FInalizado com sucesso!');
+    console.log('Finalizado com sucesso!');
   } catch (error) {
     console.error('Erro ao atualizar dados:', error);
   }
@@ -498,10 +506,10 @@ app.get('/', async (req, res) => {
 });
 
 // Configura o cron job para rodar a cada 6 horas
-cron.schedule('0 */1 * * *', async () => {
-  console.log('Iniciando atualização de dados programada...');
-  await refreshData();
-});
+// cron.schedule('0 */1 * * *', async () => {
+//   console.log('Iniciando atualização de dados programada...');
+//   await refreshData();
+// });
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
