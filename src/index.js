@@ -18,12 +18,13 @@ const region = process.env.REGION;
 const locale = process.env.LOCALE;
 const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
-
-
-
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
-const supabase = createClient(supabaseUrl, supabaseKey);
+const supabase  = createClient(supabaseUrl, supabaseKey);
+
+let cachedPlayersData = null;
+let lastFetchTime = 0;
+const cacheDuration = 60 * 60 * 1000; // Cache por 1 hora (em milissegundos)
 
 async function upsertPlayerData(playerData) {
   const createdAt = new Date().toISOString(); 
@@ -183,8 +184,6 @@ async function getDungeonsDoneWithId(characterId) {
   return {totalDungeonsAllTime: totalDungeonsAllTime, totalDungeonsThisWeek: totalDungeonsThisWeek};
 }
 
-
-
 async function getRaiderIoData(region, realm, name, fields){
   try {
     const response = await fetch(`https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${name}&fields=${fields}`);
@@ -293,11 +292,6 @@ async function getMockGuildRoster() {
     throw error;
   }
 }
-
-
-let cachedPlayersData = null;
-let lastFetchTime = 0;
-const cacheDuration = 5 * 60 * 1000; // Cache por 5 minutos (em milissegundos)
 
 app.get('/dados', async (req, res) => {
   try {
@@ -483,7 +477,9 @@ async function refreshData() {
       }
     }
 
-    // fs.writeFileSync(dataFilePath, JSON.stringify(result, null, 2), 'utf8');
+     // Limpar cache após atualizar dados
+     cachedPlayersData = null;
+     lastFetchTime = 0; 
 
     console.log('Finalizado com sucesso!');
   } catch (error) {
