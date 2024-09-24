@@ -3,7 +3,7 @@ const express = require('express');
 const axios = require('axios');
 const dotenv = require('dotenv');
 const cors = require('cors');
-// const cron = require('node-cron');
+const cron = require('node-cron');
 
 dotenv.config();
 
@@ -501,11 +501,11 @@ app.get('/', async (req, res) => {
   }
 });
 
-// Configura o cron job para rodar a cada 6 horas
-// cron.schedule('0 */1 * * *', async () => {
-//   console.log('Iniciando atualização de dados programada...');
-//   await refreshData();
-// });
+// Configura o cron job para rodar a cada 1 horas
+cron.schedule('0 */1 * * *', async () => {
+  console.log('Iniciando atualização de dados programada...');
+  await refreshData();
+});
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
