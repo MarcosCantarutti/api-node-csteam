@@ -136,22 +136,19 @@ async function getCharacterMythicPlus(accessToken, url) {
 
 async function getDungeonsDoneWithId(characterId) {
   const now = new Date();
-  const today = now.getUTCDay(); // 0 = Domingo, 1 = Segunda, ..., 6 = Sábado
+  const today = now.getUTCDay();
 
-  // Encontra a última terça-feira às 12:00 no horário de Brasília (UTC-3)
   let lastTuesday = new Date(now);
-  lastTuesday.setUTCHours(12, 0, 0, 0); // Define 12:00 em UTC
-
+  lastTuesday.setUTCHours(12, 0, 0, 0); // Define a hora 12:00 em UTC
+  
+  // Calcula a data da última terça-feira
   if (today < 2 || (today === 2 && now.getUTCHours() < 12)) {
-    // Se for segunda ou antes de 12:00 de terça, subtrai uma semana
-    lastTuesday.setDate(now.getDate() - (today + 5)); // Ajuste para a terça anterior
+    lastTuesday.setUTCDate(now.getUTCDate() - (today + 5));
   } else {
-    // Se for depois de 12:00 de terça, ajusta para a terça desta semana
-    lastTuesday.setDate(now.getDate() - (today - 2));
+    lastTuesday.setUTCDate(now.getUTCDate() - (today - 2));
   }
 
-  // Ajuste para o fuso horário de Brasília (UTC-3)
-  lastTuesday = new Date(lastTuesday.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }));
+  lastTuesday.setHours(lastTuesday.getHours() - 3);
 
   let dungeonsId = [12916, 13334, 14979, 14883, 15093, 14971, 4950, 9354];
   let totalDungeonsThisWeek = 0;
@@ -169,17 +166,19 @@ async function getDungeonsDoneWithId(characterId) {
 
     const dungeonsThisWeek = runs.filter(run => {
       const completedAt = new Date(run.summary.completed_at);
-      const completedAtBrazil = new Date(completedAt.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }));
+      completedAt.setHours(completedAt.getHours() - 3);
 
+      // console.log('lastTuesday: ',lastTuesday);
+      // console.log('completedAt: ',completedAt);
       totalDungeonsAllTime++;
 
-      return completedAtBrazil >= lastTuesday;
+      return completedAt >= lastTuesday;
     });
 
     totalDungeonsThisWeek += dungeonsThisWeek.length;
   }
 
-  console.log(totalDungeonsThisWeek);
+  // console.log(totalDungeonsThisWeek);
 
   return {totalDungeonsAllTime: totalDungeonsAllTime, totalDungeonsThisWeek: totalDungeonsThisWeek};
 }
@@ -454,7 +453,7 @@ async function refreshData() {
         const getDungeonsDone = await getDungeonsDoneWithId(member.character.raider_io_id)
 
         if(getDungeonsDone.totalDungeonsThisWeek){
-          characterData.mythicDungeonsDoneThisWeek = getDungeonsDoneThisWeak.totalDungeonsThisWeek
+          characterData.mythicDungeonsDoneThisWeek = getDungeonsDone.totalDungeonsThisWeek
         }
 
         if(getDungeonsDone.totalDungeonsAllTime){
